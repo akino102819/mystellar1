@@ -11,17 +11,14 @@ html,body{
   height:100%
 }
 .top_header {
-  text-decoration: none;
   height: 150px;
   width: 100%;
   background-color: #32b4e7a6;
-  color: #ffffff;
+  
   .header__box{
     justify-content: space-around;
     height: 100px;
-    
     display: flex;
-    
     .icons{
       display: flex;
       padding: 30px 0 20px 0;
@@ -31,13 +28,12 @@ html,body{
       }
     }
     .header__app-name{
-      
       font-size: 80px;
     }
-    .user__nav{
-      font-size: 40px;
-      padding: 30px;
+    .user__operation{
+      display: flex;
     }
+      
   }
   .categorys{
     background-color: #0e34afa6;
@@ -47,8 +43,21 @@ html,body{
     padding: 10px;
   }
 }
-
-
+.user__nav{
+  font-size: 20px;
+  margin-top: 30px;
+}
+span{ 
+  margin-top: 20px ;
+  font-size: 30px;
+  padding: 5px 20px 5px 30px,
+  
+}
+a, .post {
+  text-decoration: none;
+  color: #ffffff;
+}
+  
 .main_top {
   height: 100%;
   width: 100%;
@@ -71,7 +80,7 @@ html,body{
       justify-content: space-around;
       display: flex;
       .category__tweet__item {
-        &__image{
+        .category__tweet__image{
           background-color: #ffffff;
           display: inline-block;
           height: 230px;

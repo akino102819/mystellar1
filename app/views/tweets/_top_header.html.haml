@@ -12,8 +12,21 @@
           %i.fas.fa-gem.fa-2x
     .header__app-name
       Mystellar
-    .user__nav
-      投稿する
+    - if user_signed_in?
+      .user__operation
+        %span
+          = current_user.name
+        %ul.user__info
+          %li.user__nav
+            = link_to "マイページ", "/users/#{current_user.id}"
+            = link_to "ログアウト", destroy_user_session_path, method: :delete
+            = link_to  "投稿する", "/tweets/new", class: "post"
+
+    - else
+      .user__nav
+        = link_to "ログイン", new_user_session_path, class: 'post'
+        = link_to "新規登録", new_user_registration_path, class: 'post'
+
      
   %ul.categorys
     %li.hedar__category
