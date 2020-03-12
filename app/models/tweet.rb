@@ -1,4 +1,4 @@
 class Tweet < ApplicationRecord
-  validates :text, presence: true
+  validates :content, presence: true
   belongs_to :user
 end

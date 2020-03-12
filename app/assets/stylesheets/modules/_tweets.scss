@@ -11,12 +11,11 @@ html,body{
   height:100%
 }
 .top_header {
-  height: 150px;
   width: 100%;
   background-color: #32b4e7a6;
   
   .header__box{
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100px;
     display: flex;
     .icons{
@@ -29,11 +28,15 @@ html,body{
     }
     .header__app-name{
       font-size: 80px;
+      a{
+        text-decoration: none;
+        color: black;
+      }
     }
     .user__operation{
       display: flex;
     }
-      
+
   }
   .categorys{
     background-color: #0e34afa6;
@@ -45,32 +48,34 @@ html,body{
 }
 .user__nav{
   font-size: 20px;
-  margin-top: 30px;
+  margin: 30px 10px 0 0;
+  a, .post {
+    text-decoration: none;
+    color: #ffffff;
+  }
 }
 span{ 
   margin-top: 20px ;
   font-size: 30px;
-  padding: 5px 20px 5px 30px,
+  padding: 5px 20px 5px 20px,
   
 }
-a, .post {
-  text-decoration: none;
-  color: #ffffff;
-}
+
   
 .main_top {
   height: 100%;
   width: 100%;
-  padding: 50px 100px;
+  padding: 20px 80px 0 80px;
   justify-content: space-around;
   background-color: #e3f8f8f5;
-  
+  overflow: scroll;
   .category{
     height: 100%;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     background-color: #fceff6;
     justify-content: space-around;
+    overflow: scroll;
     &__name{
       font-size: 35px;
       padding: 10px;
@@ -78,7 +83,12 @@ a, .post {
     .category__tweet{
       height: 270px;
       justify-content: space-around;
+      flex-wrap: wrap;
       display: flex;
+      a{
+        text-decoration: none;
+        color: black;
+      }
       .category__tweet__item {
         .category__tweet__image{
           background-color: #ffffff;
@@ -93,8 +103,44 @@ a, .post {
     }
   }
 }
+.tweet__screen{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 10px;
+}
+.tweet__content{
+  
+  text-align: center;
+  img{
+    margin: 20px;
+    height: 500px;
+  }
+  .content_title{
+    font-size: 30px;
+  }
+  .content_content{
+    font-size: 20px;
+  }
+}
+input{
+  display: block;
+  text-align: left;
+}
 
-
-
-
-
+form {
+  margin-top: 5px;
+  input,textarea {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 8px 0;
+  }
+  input[type="submit"] {
+    background-color:skyblue;
+    border-radius: 20px;
+    color: #fff;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+  }
+}

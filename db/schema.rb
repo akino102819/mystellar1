@@ -16,8 +16,10 @@ ActiveRecord::Schema.define(version: 20200310100016) do
     t.text     "title",      limit: 65535
     t.string   "image"
     t.text     "content",    limit: 65535
+    t.integer  "user_id"
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
+    t.index ["user_id"], name: "index_tweets_on_user_id", using: :btree
   end
 
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|

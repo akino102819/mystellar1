@@ -1,0 +1,9 @@
+.main_top
+  .category
+    .tweet__content
+      .content_image
+        = image_tag @tweet.image
+      .content_title
+        = @tweet.title
+      .content_content
+        = simple_format(@tweet.content)
