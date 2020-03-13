@@ -48,8 +48,9 @@ html,body{
 }
 .user__nav{
   font-size: 20px;
-  margin: 30px 10px 0 0;
+  margin-right: 10px;
   a, .post {
+    display: block;
     text-decoration: none;
     color: #ffffff;
   }
@@ -69,6 +70,16 @@ span{
   justify-content: space-around;
   background-color: #e3f8f8f5;
   overflow: scroll;
+  p{
+    border-top: solid;
+    border-bottom:solid;
+    border-color: #7bf3dff6;
+    border-width:5px;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
   .category{
     height: 100%;
     width: 100%;
@@ -109,7 +120,6 @@ span{
   padding-top: 10px;
 }
 .tweet__content{
-  
   text-align: center;
   img{
     margin: 20px;
@@ -120,6 +130,19 @@ span{
   }
   .content_content{
     font-size: 20px;
+  }
+}
+.tweet__send{
+  justify-content: center;
+  display: flex;
+  .edit, .delete, .btn{
+    margin: 0 10px;
+    padding:3px 10px ;
+    background-color: salmon;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 28px;
+    text-decoration: none;
   }
 }
 input{
@@ -136,7 +159,7 @@ form {
     margin: 8px 0;
   }
   input[type="submit"] {
-    background-color:skyblue;
+    background-color: salmon;
     border-radius: 20px;
     color: #fff;
     border: 0;
