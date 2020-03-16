@@ -12,3 +12,4 @@
             = image_tag tweet.image, class: 'category__tweet__image'
             .category__tweet__title
               = tweet.title
+  = paginate(@tweets)

@@ -12,13 +12,13 @@
         .icons
           .icons__3
             = link_to "#" do
-              %i.fas.fa-circle.fa-2x
+              %i.fas.fa-globe-americas.fa-2x
           .icons__2
             = link_to "#" do
-              %i.fas.fa-gem.fa-2x
+              %i.fas.fa-moon.fa-2x
           .icons__1
             = link_to "#" do
-              %i.fas.fa-gem.fa-2x
+              %i.fas.fa-sun.fa-2x
         .header__app-name
           = link_to "Mystellar", root_path, class: "header__title"
         - if user_signed_in?
@@ -35,21 +35,10 @@
           .user__nav
             = link_to "ログイン", new_user_session_path, class: 'post'
             = link_to "新規登録", new_user_registration_path, class: 'post'
-
         
-      %ul.categorys
-        %li.hedar__category
-          美容
-        %li.hedar__category
-          ファッション
-        %li.hedar__category
-          料理
-        %li.hedar__category
-          フィットネス
-        %li.hedar__category
-          趣味
-        %li.hedar__category
-          子育て
-        %li.hedar__category
-          豆知識
+      .categorys
+        - @categories.each do |category|
+          = link_to "#" do
+            .hedar__category
+              = category.name
     = yield

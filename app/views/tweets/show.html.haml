@@ -1,4 +1,8 @@
 .main_top
+  .tweet__send
+    - if user_signed_in? && current_user.id == @tweet.user_id
+      = link_to '編集', "/tweets/#{@tweet.id}/edit", class:"edit"
+      = link_to '削除', "/tweets/#{@tweet.id}", method: :delete, class:"delete"
   .category
     .tweet__content
       .content_image
@@ -7,7 +11,21 @@
         = @tweet.title
       .content_content
         = simple_format(@tweet.content)
-  .tweet__send
-    - if user_signed_in? && current_user.id == @tweet.user_id
-      = link_to '編集', "/tweets/#{@tweet.id}/edit", class:"edit"
-      = link_to "削除", "/tweets/#{@tweet.id}", class:"delete"
+    .comments
+      .tweet__screen
+        ＜コメント一覧＞
+        - if @comments
+          - @comments.each do |comment|
+            %p
+              %strong
+                = link_to comment.user.name, "/users/#{comment.user_id}"  
+              = comment.text
+    .tweet__content
+      - if current_user
+        =form_for [@tweet, @comment] do |form|
+          = form.text_area :text, placeholder: "コメントする", rows: "3"
+          = form.submit "SEND"
+      - else
+        %strong
+          %p ※※※ コメントの投稿には新規登録/ログインが必要です ※※※
+      
