@@ -37,8 +37,17 @@
             = link_to "新規登録", new_user_registration_path, class: 'post'
         
       .categorys
-        - @categories.each do |category|
-          = link_to "#" do
-            .hedar__category
-              = category.name
+        .hedar__category
+          美容
+        .hedar__category
+          ファッション
+        .hedar__category
+          フィットネス
+        .hedar__category
+          子育て
+        .hedar__category
+          趣味
+        .hedar__category
+          豆知識
+
     = yield

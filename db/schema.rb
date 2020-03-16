@@ -10,11 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20200315051013) do
-
-  create_table "categories", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string "name", null: false
-  end
+ActiveRecord::Schema.define(version: 20200313072633) do
 
   create_table "comments", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.integer  "user_id"
@@ -25,14 +21,12 @@ ActiveRecord::Schema.define(version: 20200315051013) do
   end
 
   create_table "tweets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.text     "title",       limit: 65535
+    t.text     "title",      limit: 65535
     t.string   "image"
-    t.text     "content",     limit: 65535
+    t.text     "content",    limit: 65535
     t.integer  "user_id"
-    t.integer  "category_id"
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
-    t.index ["category_id"], name: "index_tweets_on_category_id", using: :btree
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
     t.index ["user_id"], name: "index_tweets_on_user_id", using: :btree
   end
 

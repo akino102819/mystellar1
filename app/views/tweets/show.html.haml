@@ -7,8 +7,12 @@
     .tweet__content
       .content_image
         = image_tag @tweet.image
+      .content
       .content_title
         = @tweet.title
+        .content_use-name
+          投稿者：
+          = @tweet.user.name
       .content_content
         = simple_format(@tweet.content)
     .comments
@@ -19,7 +23,9 @@
             %p
               %strong
                 = link_to comment.user.name, "/users/#{comment.user_id}"  
+              = comment.created_at.strftime("%m月%d日")
               = comment.text
+              
     .tweet__content
       - if current_user
         =form_for [@tweet, @comment] do |form|
