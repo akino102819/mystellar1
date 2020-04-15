@@ -60,3 +60,4 @@
 - has_many :hashtag, through: :tweet_tags
 
 
+q
