@@ -10,15 +10,15 @@
     .top_header
       .header__box
         .icons
-          .icons__3
-            = link_to "#" do
-              %i.fas.fa-globe-americas.fa-2x
-          .icons__2
-            = link_to "#" do
-              %i.fas.fa-moon.fa-2x
           .icons__1
             = link_to "#" do
-              %i.fas.fa-sun.fa-2x
+              A
+          .icons__2
+            = link_to "#" do
+              B
+          .icons__3
+            = link_to "#" do
+              C
         .header__app-name
           = link_to "Mystellar", root_path, class: "header__title"
         - if user_signed_in?
