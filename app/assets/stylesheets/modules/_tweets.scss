@@ -14,7 +14,6 @@ html,body{
 
 /*ヘッダー*/
 .top_header {
-
   width: 100%;
   background-image: url(background/arrow.1.jpg);
   color: #f2f53f;
@@ -63,23 +62,20 @@ html,body{
         letter-spacing: 0.5em
       }
     }
-
-
-  }
-  .categorys{
-    color: #a6f0ec;
-    background-color: #04033da6;
-    justify-content: space-around;
-    font-size: 25px;
-    display: flex;
-    padding: 10px;
-    a{
-      color: #ffffff;
-      text-decoration: none;
-    }
   }
 }
-
+.categorys{
+  color: #a6f0ec;
+  background-color: #04033da6;
+  justify-content: space-around;
+  font-size: 25px;
+  display: flex;
+  padding: 10px;
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
 
   
 .main_top {
