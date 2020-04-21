@@ -1,4 +1,10 @@
 .wrapper
+  .categorys
+    - @category.each do |category|
+      = link_to category_path(@category) do
+        .hedar__category
+          =category.name
+
   .main_top
     .category
       .category__name
