@@ -14,7 +14,7 @@
           投稿者：
           = @tweet.user.name
       .content_content
-        = simple_format(@tweet.content)
+        = render_with_hashtags(@tweet.content)
     .comments
       .tweet__screen
         ＜コメント一覧＞
