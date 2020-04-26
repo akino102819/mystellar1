@@ -14,7 +14,12 @@
           投稿者：
           = @tweet.user.name
       .content_content
-        = simple_format(@tweet.content)
+        = simple_format(@tweet.content.gsub!(/[#＃][\w\p{Han}ぁ-ヶｦ-ﾟー]+/, ""))
+        - if @tweet.tags.any?
+          - @tweet.tags.each do |tag|
+            %p
+              \##{tag.name}
+
     .comments
       .tweet__screen
         ＜コメント一覧＞
