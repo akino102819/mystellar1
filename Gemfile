@@ -63,12 +63,4 @@ gem 'haml-rails'
 gem 'font-awesome-sass'
 gem 'devise'
 gem 'kaminari'
-<<<<<<< HEAD
-group :production do
-  gem 'unicorn', '5.4.1'
-end
-=======
 
-
-
->>>>>>> 87d80c914e752a84c5283720f48439a0b41921a8
