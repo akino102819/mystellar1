@@ -6,6 +6,7 @@ html,body{
   margin: 0;
   padding: 0;
   overflow: scroll;
+  background-image: image-url("background/arrow_top.jpeg");
 }
 .wrapper {
   width: 100vw;
@@ -15,7 +16,7 @@ html,body{
 // ヘッダー
 .top_header {
   width: 100%;
-  background-image: url(background/arrow.1.jpg);
+  background-image: image-url("background/arrow.1.jpg");
   color: #f2f53f;
   .header__box{
     justify-content: space-between;
@@ -36,6 +37,7 @@ html,body{
     }
     .header__app-name{
       font-size: 80px;
+      
       a{
         text-decoration: none;
         color: #e2f0ef;
@@ -84,7 +86,7 @@ html,body{
   height: 100%;
   width: 100%;
   padding: 0px 80px;
-  background-image: url(background/arrow_top.jpeg);
+  background-image: image-url("background/arrow_top.jpeg");
   background-color: #e8eeee;
   p{
     border-top: solid;
@@ -154,7 +156,7 @@ html,body{
   }
   img{
     margin: 20px;
-    height: 500px;
+    height: 50
   }
   .content_title{
     font-size: 30px;
