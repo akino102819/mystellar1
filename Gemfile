@@ -53,9 +53,12 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+<<<<<<< HEAD
+=======
 group :production, :staging do
   gem 'unicorn'
 end
+>>>>>>> 87d80c914e752a84c5283720f48439a0b41921a8
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
@@ -63,6 +66,12 @@ gem 'haml-rails'
 gem 'font-awesome-sass'
 gem 'devise'
 gem 'kaminari'
+<<<<<<< HEAD
+group :production do
+  gem 'unicorn', '5.4.1'
+end
+=======
 
 
 
+>>>>>>> 87d80c914e752a84c5283720f48439a0b41921a8
