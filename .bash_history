@@ -1,153 +1,3 @@
-rm -rf Gemfile.lock
-ls
-brew install openssl
-bundle config --local build.mysql2 "--with-ldflags=-L/usr/local/opt/openssl/lib --with-cppf
-
-exit
-
-
-
-
-bundle install
-bundle update sassc
-gem 'sassc', '~> 2.4.0'
-top
-sudo dd if=/dev/zero of=/swap bs=1M count=2048
-ll /swap
-sudo mkswap /swap
-sudo swapon /swap
-sudo chmod 600 /swap
-cat /proc/swaps
-bundle install
-gem install mysql2 -v '0.5.3' --source 'https://rubygems.org/'
-bundle install
-export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
-bundle install
-sudo yum install mysql-devel
-bundle install
-
-vi config/secrets.yml
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-sudo service nginx restart
-vim Gemfile
-bundle install
-vim config/unicorn.conf.rb
-sudo chmod -R 775 /var/lib/nginx/
-cp config/database.yml config/database.yml.org
-vim config/database.yml
-sudo service mysqld start
-bundle exec rake db:create RAILS_ENV=production
-bundle exec rake db:migrate RAILS_ENV=production
-pwd
-bundle exec rake assets:precompile RAILS_ENV=production
-bundle install --without development test
-find / -name Gemfile
-cd /var/lib/redmine/
-bundle exec rake assets:precompile RAILS_ENV=production
-bundle install --without development test
-pwd
-/var/www/projects/Mystellar1
-cd /var/www/projects
-cd Mystellar1/
-cd mystellar1/
-pwd
-bundle exec rake assets:precompile RAILS_ENV=production
-sudo service nginx restart
-bundle exec unicorn_rails -c /var/www/projects/アプリ名/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-ps -ef | grep unicorn | grep -v grep
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-ps -ef | grep unicorn | grep -v grep
-bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c config/unicorn.rb -E production -D
-bundler: failed to load command: unicorn_rails (/var/www/projects/mystellar1/vendor/bundle/ruby/2.5.0/bin/unicorn_rails)
-bundle exec unicorn_rails -c config/unicorn.conf.rb -E production -D
-unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-tail log/unicorn_error.log
-exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn -c config/unicorn.rb
-bundle exec unicorn_rails -c config/unicorn.rb
-vi Gemfile
-gem install bundler
-bundle install
-vi config/unicorn.conf.rb
-ps -ef | grep unicorn | grep -v grep
-sudo service nginx start
-exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -E production -D
-exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -E production -D
-kill -QUIT `cat /path/to/unicorn.pid`
-kill -HUP `cat /path/to/unicorn.pid`
-exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c config/unicorn.rb -E production -D
-bundle exec unicorn -D -c $APP_ROOT/config/unicorn.rb -E $RAILS_ENV
-cd /var/www/projects
-sudo service nginx restart
-pwd
-cd mystellar1/
-sudo service nginx restart
-ls
-sudo chmod -R 775 /var/lib/nginx/
-bundle exec rake assets:precompile RAILS_ENV=production
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-
-sudo less /var/log/nginx/error.log
-cd /var/www/projects
-ls -
-ls -l
-cd mystellar1/
-ls -l
-sudo less /var/log/nginx/error.log
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-sudo service nginx restart
-cp config/database.yml config/database.yml.org
-vim config/database.yml
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-sudo less /var/log/nginx/error.log
-vim config/unicorn.conf.rb
-cd ~
-# set lets
-  $worker  = 2
-  $timeout = 30
-  $app_dir = "/var/www/rails/mumu" #自分のアプリケーション名
-  $listen  = File.expand_path 'tmp/sockets/.unicorn.sock', $app_dir
-  $pid     = File.expand_path 'tmp/pids/unicorn.pid', $app_dir
-  $std_log = File.expand_path 'log/unicorn.log', $app_dir
-  # set config
-  worker_processes  $worker
-  working_directory $app_dir
-  stderr_path $std_log
-  stdout_path $std_log
-  timeout $timeout
-  listen  $listen
-  pid $pid
-  # loading booster
-  preload_app true
-  # before starting processes
-  before_fork do |server, worker|     defined?(ActiveRecord::Base) and ActiveRecord::Base.connection.disconnect!
-    old_pid = "#{server.config[:pid]}.oldbin"
-    if old_pid != server.pid;       begin;         Process.kill "QUIT", File.read(old_pid).to_i
-      rescue Errno::ENOENT, Errno::ESRCH
-      end
-    end
-  end
-  # after finishing processes
-  after_fork do |server, worker|     defined?(ActiveRecord::Base) and ActiveRecord::Base.establish_connection
-sudo yum install nginx
-cd /etc/nginx/conf.d/
-sudo vi mystellar1.conf
-cd /var/lib
-sudo chmod -R 775 nginx
-cd ~
-sudo yum install nginx
-cd /var/www/projects
-cd mystellar1/
-already installed and latest version
-Nothing to do
-sudo service nginx start
 ps -ef | grep unicorn | grep -v grep
 bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
 sudo less /var/log/nginx/error.log
@@ -998,3 +848,153 @@ mkdir config
 cd config
 vi settings.yml
 bundle exec cap production deploy:db_create 
+cd /var/www/projects/mystellar1
+
+kill 8600
+ps -ef | grep unicorn | grep -v grep
+cd ~
+sudo yum install nginx
+cd /etc/nginx/conf.d/
+ls
+sudo vi mystellar1.conf
+cd ~
+sudo service mysqld start
+mysql -u root -p
+mysql -u root -pAkino10
+cd /var/www/projects/mystellar1
+git add .
+git commit -m "Add for deploy by capistrano"
+git push origin master
+To github:akino102819/mystellar1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'github:akino102819/mystellar1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+git pull origin master
+git push origin master
+git commit -m "Add for deploy by capistrano"
+git add .
+git commit -m "Add for deploy by capistrano"
+git push origin master
+bundle exec cap production deploy
+bundle exec bundle install
+bundle exec cap production deploy
+rbenv rehash
+bundler -v
+gem install bundler -v 2.0.1
+bundle install
+sudo gem install bundler -v 2.0.1
+gem install bundler -v 2.0.1
+bundle install
+bundle exec cap install
+bundle install
+sudo yum install nginx
+git add .
+git commit -m "Add for deploy by capistrano"
+git push origin master
+git pull origin master
+git add .
+git commit -m "Add for deploy by capistrano"
+git push origin master
+bundle exec cap production deploy
+bundle install
+git push origin master
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+bundle install
+bundle exec cap production deploy
+bundle install
+bundle exec cap production deploy
+git pull origin master
+git push origin master
+git add .
+git commit -m "Add for deploy by capistrano"
+git push origin master
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+bundle install
+bundle exec cap production deploy
+gem install bundler -v 2.0.2
+bundle install
+bundle exec cap production deploy
+git pull origin master
+git branch -a
+git pull origin master
+git fetch
+git merge origin/master
+bundle exec cap production deploy
+bundle install
+bundle exec cap production deploy
+git add .
+git commit -m "Add for deploy by capistrano"
+
+
+bundle exec cap production deploy
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+cd ~
+sudo service mysqld start
+ mysql -u root -p
+ mysql -u root -pAkino10
+ mysql -u root -pAkino1028
+ mysql -u root -p
+git add .
+git config --global user.name "akino102819"
+git config --global user.email "k.akino1028@icloud.com"
+git branch
+git init
+git branch
+git add .
+git rm --cached .rbenv
+git add .
+git pull origin master
+remote -v
+gitremote -v
+git remote -v
+git add .
+git pull origin master
+git remote
+git add .
+git pull origin master
+git push origin master
+git push origin 
+git push --set-upstream origin master
+git push origin :branch-name
+ls -a .git
+git rebase origin/master
+git push
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+git remote -v
+git commit -m "update"
+git remote add origin <url>
+git remote add origin 
+git remote add origin https://github.com/akino102819/mystellar1.git
+git remote -v
+git pull origin master
+git push origin master
+git pull origin master
+git push origin master
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git pull --allow-unrelated-histories origin master
+git push origin master
+bundle exec cap production deploy
+bundle install
+git pull origin master
+git push origin master
+bundle install
+bundle exec cap production deploy
+bundle install
