@@ -14,7 +14,7 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password:
+  password: Akino1028
   socket: /tmp/mysql.sock
 
 development:
@@ -49,6 +49,11 @@ test:
 #
 production:
   <<: *default
+  adapter: mysql2
+  encoding: utf8
   database: mystellar1_production
-  username: mystellar1
-  password: <%= ENV['MYSTELLAR1_DATABASE_PASSWORD'] %>
+  username: root
+  password: Akino1028
+  host: mystellar-mysql.ce6ovpuscs49.ap-northeast-1.rds.amazonaws.com
+  port: 3306
+
