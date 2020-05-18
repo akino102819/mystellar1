@@ -1,0 +1,39 @@
+!!!
+%html
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv": "Content-Type"}/
+    %title Mystellar
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+  %body
+    .top_header
+      .header__box
+        .icons
+          .icons__1
+            = link_to "#" do
+              A
+          .icons__2
+            = link_to "#" do
+              B
+          .icons__3
+            = link_to "#" do
+              C
+        .header__app-name
+          = link_to "Mystellar", root_path, class: "header__title"
+        - if user_signed_in?
+          .user__operation
+            %span
+              = current_user.name
+            %ul.user__info
+              %li.user__nav
+                = link_to "マイページ", "/users/#{current_user.id}"
+                = link_to "ログアウト", destroy_user_session_path, method: :delete
+                = link_to  "投稿する", "/tweets/new", class: "post"
+
+        - else
+          .user__nav
+            = link_to "ログイン", new_user_session_path, class: 'post'
+            = link_to "新規登録", new_user_registration_path, class: 'post'
+
+    = yield

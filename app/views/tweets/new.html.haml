@@ -1,0 +1,10 @@
+.main_top
+  .category
+    .tweet__screen
+      投稿する
+    .tweet__content
+      = form_for @tweet do |form|
+        = form.text_field :title, placeholder: "タイトル"
+        = form.text_field :image, placeholder: "Image Url"
+        = form.text_area :content, rows: "20"
+        = form.submit "投稿する"

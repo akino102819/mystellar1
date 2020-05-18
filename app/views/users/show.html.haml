@@ -1,0 +1,15 @@
+.main_top
+  %p
+    = @name
+    さんの投稿一覧
+  .category
+    .category__name
+      美容投稿
+    .category__tweet
+      - @tweets.each do |tweet|
+        = link_to tweet_path(tweet.id), class: 'category__tweet__post' do
+          .category__tweet__item
+            = image_tag tweet.image, class: 'category__tweet__image'
+            .category__tweet__title
+              = tweet.title
+  = paginate(@tweets)

@@ -1,0 +1,42 @@
+.main_top
+  .category
+    .tweet__content
+      .content_image
+        = image_tag @tweet.image
+      .tweet__send
+        - if user_signed_in? && current_user.id == @tweet.user_id
+          = link_to '編集', "/tweets/#{@tweet.id}/edit", class:"edit"
+          = link_to '削除', "/tweets/#{@tweet.id}", method: :delete, class:"delete"
+      .content
+      .content_title
+        = @tweet.title
+        .content_use-name
+          投稿者：
+          = @tweet.user.name
+      .content_content
+        = simple_format(@tweet.content.gsub!(/[#＃][\w\p{Han}ぁ-ヶｦ-ﾟー]+/, ""))
+        - if @tweet.tags.any?
+          - @tweet.tags.each do |tag|
+            %p
+              \##{tag.name}
+
+    .comments
+      .tweet__screen
+        ＜コメント一覧＞
+        - if @comments
+          - @comments.each do |comment|
+            %p
+              %strong
+                = link_to comment.user.name, "/users/#{comment.user_id}"  
+              = comment.created_at.strftime("%m月%d日")
+              = comment.text
+              
+    .tweet__content
+      - if current_user
+        =form_for [@tweet, @comment] do |form|
+          = form.text_area :text, placeholder: "コメントする", rows: "3"
+          = form.submit "コメント送信する"
+      - else
+        %strong
+          %p ※※※ コメントの投稿には新規登録/ログインが必要です ※※※
+      
