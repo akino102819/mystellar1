@@ -12,7 +12,7 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1589777120,,"wq"
+|2,0,1589880966,,"wq"
 :q!
 |2,0,1589011511,,"q!"
 :q
@@ -37,31 +37,49 @@
 
 # File marks:
 '0  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,48,2,18,1589777120,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'1  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,49,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'2  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,50,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'3  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,51,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
-'4  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,52,12,30,1589011511,"/var/www/projects/mystellar1/config/database.yml"
-'5  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,53,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
-'6  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,54,47,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
-'7  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,55,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
-'8  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,56,50,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
-'9  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,57,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+|4,48,2,18,1589880966,"/var/www/projects/mystellar1/shared/config/settings.yml"
+'1  59  0  /var/www/projects/mystellar1/config/database.yml
+|4,49,59,0,1589859608,"/var/www/projects/mystellar1/config/database.yml"
+'2  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,50,2,18,1589777120,"/var/www/projects/mystellar1/shared/config/settings.yml"
+'3  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,51,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
+'4  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,52,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
+'5  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,53,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
+'6  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,54,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
+'7  58  11  /var/www/projects/mystellar1/config/database.yml
+|4,55,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
+'8  58  11  /var/www/projects/mystellar1/config/database.yml
+|4,56,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
+'9  12  30  /var/www/projects/mystellar1/config/database.yml
+|4,57,12,30,1589011511,"/var/www/projects/mystellar1/config/database.yml"
 
 # Jumplist (newest first):
+-'  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,39,2,18,1589880966,"/var/www/projects/mystellar1/shared/config/settings.yml"
+-'  59  0  /var/www/projects/mystellar1/config/database.yml
+|4,39,59,0,1589859608,"/var/www/projects/mystellar1/config/database.yml"
+-'  59  0  /var/www/projects/mystellar1/config/database.yml
+|4,39,59,0,1589859608,"/var/www/projects/mystellar1/config/database.yml"
+-'  58  11  /var/www/projects/mystellar1/config/database.yml
+|4,39,58,11,1589859596,"/var/www/projects/mystellar1/config/database.yml"
+-'  58  11  /var/www/projects/mystellar1/config/database.yml
+|4,39,58,11,1589859596,"/var/www/projects/mystellar1/config/database.yml"
+-'  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,39,2,18,1589777120,"/var/www/projects/mystellar1/shared/config/settings.yml"
 -'  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
 |4,39,2,18,1589777120,"/var/www/projects/mystellar1/shared/config/settings.yml"
 -'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
 |4,39,1,0,1589777068,"/var/www/projects/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,39,1,0,1589777068,"/var/www/projects/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,39,1,0,1589777068,"/var/www/projects/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
+|4,39,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
 -'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
 |4,39,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
 -'  58  11  /var/www/projects/mystellar1/config/database.yml
@@ -72,6 +90,26 @@
 |4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
 -'  58  11  /var/www/projects/mystellar1/config/database.yml
 |4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
+-'  58  11  /var/www/projects/mystellar1/config/database.yml
+|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
+-'  58  11  /var/www/projects/mystellar1/config/database.yml
+|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
+-'  58  11  /var/www/projects/mystellar1/config/database.yml
+|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
+-'  58  11  /var/www/projects/mystellar1/config/database.yml
+|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
+-'  12  30  /var/www/projects/mystellar1/config/database.yml
+|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
+-'  12  30  /var/www/projects/mystellar1/config/database.yml
+|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
+-'  12  30  /var/www/projects/mystellar1/config/database.yml
+|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
+-'  12  30  /var/www/projects/mystellar1/config/database.yml
+|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
+-'  12  30  /var/www/projects/mystellar1/config/database.yml
+|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
+-'  12  30  /var/www/projects/mystellar1/config/database.yml
+|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
 -'  12  30  /var/www/projects/mystellar1/config/database.yml
 |4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
 -'  12  30  /var/www/projects/mystellar1/config/database.yml
@@ -88,6 +126,42 @@
 |4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
 -'  14  3  /var/www/projects/mystellar1/config/database.yml
 |4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
+-'  14  3  /var/www/projects/mystellar1/config/database.yml
+|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
+-'  14  3  /var/www/projects/mystellar1/config/database.yml
+|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
+-'  14  3  /var/www/projects/mystellar1/config/database.yml
+|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
+-'  14  3  /var/www/projects/mystellar1/config/database.yml
+|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
+-'  14  3  /var/www/projects/mystellar1/config/database.yml
+|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
+-'  14  3  /var/www/projects/mystellar1/config/database.yml
+|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
+-'  47  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  50  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  47  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  50  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  47  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  50  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  47  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  50  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  47  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  50  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  47  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
+-'  50  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
 -'  47  15  /var/www/projects/mystellar1/config/database.yml
 |4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
 -'  50  15  /var/www/projects/mystellar1/config/database.yml
@@ -120,6 +194,30 @@
 |4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
 -'  57  15  /var/www/projects/mystellar1/config/database.yml
 |4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  56  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  57  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  56  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  57  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  56  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  57  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  56  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  57  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  56  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  57  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  56  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
+-'  57  15  /var/www/projects/mystellar1/config/database.yml
+|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
 -'  23  0  /var/www/projects/mystellar1/config/secrets.yml
 |4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
 -'  23  0  /var/www/projects/mystellar1/config/secrets.yml
@@ -160,109 +258,11 @@
 |4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
 -'  23  0  /var/www/projects/mystellar1/config/secrets.yml
 |4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  146  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,146,1589010311,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  163  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,163,1589010307,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  163  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,163,1589010307,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  163  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,163,1589010307,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  163  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,163,1589010307,"/var/www/projects/mystellar1/config/secrets.yml"
--'  22  163  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,22,163,1589010307,"/var/www/projects/mystellar1/config/secrets.yml"
 
 # History of marks within files (newest to oldest):
 
 > /var/www/projects/mystellar1/shared/config/settings.yml
-	*	1589777118	0
+	*	1589880956	0
 	"	2	18
 	^	2	19
 	.	2	18
@@ -270,8 +270,8 @@
 	+	2	18
 
 > /var/www/projects/mystellar1/config/database.yml
-	*	1589011836	0
-	"	58	11
+	*	1589859605	0
+	"	59	0
 	^	58	12
 	.	58	12
 	+	12	26
