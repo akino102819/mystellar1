@@ -304,3 +304,5 @@
 6.0.3 activesupport:= 6.0.3|checksum:1f578a8ac1e111e4770c787d99ec432243ecbfee9593482eef0fadcdbae2295e,ruby:>= 2.5.0
 4.2.11.2 activesupport:= 4.2.11.2,builder:~> 3.1|checksum:79c9261bb5b082be5e0b224ae307fd9f97bc69c40eff3e80ed80e93f3544099c,ruby:>= 1.9.3
 4.2.11.3 activesupport:= 4.2.11.3,builder:~> 3.1|checksum:97b94190b4a2c1ccfaa9727a445d2b157dac8378959c37df3b51a0aafb3967fc,ruby:>= 1.9.3
+5.2.4.3 activesupport:= 5.2.4.3|checksum:05618f058f01405e314baf7a8b7275d9837956053560cf2ffe6f05553a1b3e9c,ruby:>= 2.2.2
+6.0.3.1 activesupport:= 6.0.3.1|checksum:db071802457c7281f7de3e261c7e2769d6ca94f01549b7af6ea0b77abfc4788a,ruby:>= 2.5.0
