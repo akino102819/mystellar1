@@ -1,141 +1,3 @@
-ps -ef | grep unicorn | grep -v grep
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-sudo less /var/log/nginx/error.log
-cat log/unicorn.stderr.log
-tail log/unicorn_error.log
-bundle exec gem list | grep unicorn
-cat log/unicorn.stderr.log
-tail unicorn.staderr.log 
-cd current/log
-bundle exec unicorn_rails -c config/unicorn.rb
-bundle exec gem list | grep unicorn
-vi Gemfile
-bundle install
-bundle exec gem list | grep unicorn
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-cat log/unicorn.log -n
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-be rake db:migrate RAILS_ENV=production
-bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-vi config/unicorn.conf.rb
-bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-vi config/unicorn.conf.rb
-cd /etc/nginx/conf.d/
-sudo vi mystellar1.conf
-cd ~
-bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-cd /etc/nginx/conf.d/
-bundle install
-cd /var/lib
-sudo chmod -R 775 nginx
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-cd /etc/nginx/conf.d/
-sudo vi protospace.conf
-sudo vi mystellar1.conf
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-vim Gemfile
-cd /var/www/projects
-cd mystellar1/
-bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-ls
-cd config
-ls
-ls unicorn.conf.rb
-cd unicorn.conf.rb
-ls
-
-cd /var/www/projects
-cd mystellar1/
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
- ps aux | grep unicorn
-unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-kill -QUITcat tmp/pids/unicorn.pid`
-kill -QUITcat tmp/pids/unicorn.pid`
-unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-cat log/unicorn.stderr.log
-cd current/log
-cat unicorn.staderr.log
-tail unicorn.staderr.log 
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-cd ~
-unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-cd /var/www/projects
-unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-cd mystellar1/
-ps -ef | grep unicorn
-sudo vim /etc/nginx/conf.d/rails.conf
-sudo less /var/log/nginx/error.log
-sudo service nginx restart
-nginx -t
-sudo service nginx restart
-sudo systemctl -l status nginx.service
-sudo journalctl -xe
-nginx -t
-ps -ef | grep unicorn
-sudo service nginx restart
-sudo nginx -t
-cd /var/log
-mkdir nginx
-sudo chown -R www-data:www-data /var/log/nginx;
-sudo chmod -R 755 /var/log/nginx;
-sudo service nginx restart
-sudo nginx -t
-sudo less /var/log/nginx/error.log
-cd mystellar1/
-cd /var/www/projects
-cd mystellar1/
-sudo less /var/log/nginx/error.log
-ps aux | grep unicorn
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-kill 10440
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-tail -f log/unicorn.log
-tail production.log
-tail unicorn_stderr.log
-cat log/unicorn.log -n
-tail log/unicorn_error.log
-bundle exec unicorn_rails -c config/unicorn.rb -E production -D
-bundle exec unicorn_rails -c config/unicorn.conf.rb -E production -D
-rails s -e development
-rails s -e production
-vi config/master.key
-bundle exec rake secret
-vi config/master.key
-bundle exec unicorn_rails -c config/unicorn.conf.rb -E production -D
-vi config/master.key
-RAILS_SERVE_STATIC_FILES=1 unicorn_rails -c config/unicorn.rb -E production -D
-sudo service nginx restart
-sudo systemctl -l status nginx.service
-nginx -t -c /etc/nginx/nginx.conf
-sudo nginx -t
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-sudo nginx -t
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-cd /var/lib
-sudo chmod -R 775 nginx
-cd ~
-cd /etc/nginx/conf.d/
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-cd ~
-cd /var/www/projects
-cd mystellar1/
-sudo nginx -t
-sudo nginx -t -c /path/to/nginx.conf
-grep -n access_log /path/to/nginx.conf
-cp /etc/nginx/nginx.conf ~/test.conf
-cd ~
-cp /etc/nginx/nginx.conf ~/test.conf
-vim ~/test.conf
-vim ~/mystellar1.conf
-sudo nginx -t -c ~/test.conf
-sudo cp ~/test.conf /etc/nginx/nginx.conf
-sudo -l
-sudo -i
-nginx -t -c /path/to/nginx.conf -g "pid /var/run/nginx.pid; worker_processes 2;"
-bundle exec unicorn_rails -c config/unicorn.conf.rb -E production -D
 bundle exec unicorn_rails -c config/unicorn.rb -E production -D
 cd /var/www/projects
 cd mystellar1/
@@ -998,3 +860,141 @@ git push origin master
 bundle install
 bundle exec cap production deploy
 bundle install
+bundle install --path vendor/bundle
+ls -all
+bundle install
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+git pull origin develop
+git checkout develop
+git pull origin master
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+bundle install
+git pull origin master
+t status
+git checkout develop
+git pull origin develop
+git pull origin master
+git pull origin develop
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+git diff HEAD FETCH_HEAD
+git log HEAD..FETCH_HEAD
+cd .bundle/config
+ls -all
+cd .bundle 
+ls -all
+cd config
+rm config
+ls -all
+cd ~
+bundle install
+bundle exec cap production deploy
+cd /var/www/projects/mystellar1
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+bundle install
+ls -all
+cd .bundle
+ls -all
+rm config
+cd ~
+bundle install
+bundle exec cap production deploy
+cd /var/www/projects/mystellar1
+cd log
+ls -all
+cd unicorn.loh
+cd unicorn.log
+
+sudo vim unicorn.log
+cd ~
+cd /etc/nginx/conf.d/
+sudo vi mystellar1.conf
+cd ~
+git add .
+cd /var/www/projects/mystellar1
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+sudo service nginx restart
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+ps -ef | grep unicorn | grep -v grep
+
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+sudo service nginx restart
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+cd log
+ls -all
+sudo vim unicorn.log
+ps -ef | grep unicorn | grep -v grep
+sudo service nginx restart
+/usr/sbin/nginx -t -c /etc/nginx/nginx.conf
+sudo service nginx restart
+cd ~
+cd /var/www/projects/mystellar1
+
+sudo systemctl status nginx.service
+sudo nginx -t
+
+sudo systemctl status nginx.service
+sudo service nginx restart
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+sodo log/unicorn.log
+sodo vi log/unicorn.log
+ls
+cd log
+ls
+sodo vi log/unicorn.log
+sodo vi unicorn.log
+sodo vim unicorn.log
+
+cd ~
+cd /var/www/projects/mystellar1
+ps -ef | grep unicorn | grep -v grep
+kill 23798
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+sudo service nginx restart
+cd bin
+ls
+cd /var/www/projects/mystellar1
+sudo vilog/production.log
+sudo vi log/production.log
+cd log
+sudo vi log/unicorn.log
+cd /var/www/projects/mystellar1
+sudo vi log/unicorn.log
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+
+ps -ef | grep unicorn | grep -v grep
+
+cd log
+ls -all
+sudo vi log/development.log
+sudo vi development.log
+cd /var/www/projects/mystellar1
+sudo vi log/development.log
+sudo systemctl status nginx.service
+ps -ef | grep unicorn | grep -v grep
+ls
+sudo service mysqld start
+mysql -u root -p
+sudo service nginx restart
+bundle install
+git add .
+
+git pull origin master
+git push origin master
+
