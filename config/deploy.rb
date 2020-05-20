@@ -1,5 +1,5 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.12.1"
+lock "~> 3.14.0"
 
 set :application, "mystellar1"
 set :repo_url, "https://github.com/akino102819/mystellar1.git"
