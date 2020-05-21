@@ -12,11 +12,11 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1589880966,,"wq"
+|2,0,1590052045,,"wq"
 :q!
-|2,0,1589011511,,"q!"
+|2,0,1590048898,,"q!"
 :q
-|2,0,1589011507,,"q"
+|2,0,1590016685,,"q"
 :wq!
 |2,0,1588936274,,"wq!"
 :q1
@@ -36,238 +36,315 @@
 |3,1,36,0,1,0,1588936278,"o"
 
 # File marks:
-'0  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,48,2,18,1589880966,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'1  59  0  /var/www/projects/mystellar1/config/database.yml
-|4,49,59,0,1589859608,"/var/www/projects/mystellar1/config/database.yml"
-'2  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,50,2,18,1589777120,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'3  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,51,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'4  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,52,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'5  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,53,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'6  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,54,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
-'7  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,55,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
-'8  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,56,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
-'9  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,57,12,30,1589011511,"/var/www/projects/mystellar1/config/database.yml"
+'0  56  20  ~/config/database.yml
+|4,48,56,20,1590052045,"~/config/database.yml"
+'1  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,49,1,0,1590048964,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+'2  1  0  config/unicorn.conf.rb
+|4,50,1,0,1590048898,"config/unicorn.conf.rb"
+'3  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,51,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+'4  7  0  config/database.yml
+|4,52,7,0,1590016689,"config/database.yml"
+'5  1  0  config/database.yml
+|4,53,1,0,1589997772,"config/database.yml"
+'6  1  0  config/database.yml
+|4,54,1,0,1589997772,"config/database.yml"
+'7  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,55,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+'8  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,56,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+'9  54  0  /var/www/rails/mystellar1/Gemfile
+|4,57,54,0,1589988441,"/var/www/rails/mystellar1/Gemfile"
 
 # Jumplist (newest first):
--'  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,39,2,18,1589880966,"/var/www/projects/mystellar1/shared/config/settings.yml"
--'  59  0  /var/www/projects/mystellar1/config/database.yml
-|4,39,59,0,1589859608,"/var/www/projects/mystellar1/config/database.yml"
--'  59  0  /var/www/projects/mystellar1/config/database.yml
-|4,39,59,0,1589859608,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589859596,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589859596,"/var/www/projects/mystellar1/config/database.yml"
--'  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,39,2,18,1589777120,"/var/www/projects/mystellar1/shared/config/settings.yml"
--'  2  18  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,39,2,18,1589777120,"/var/www/projects/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,39,1,0,1589777068,"/var/www/projects/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,39,1,0,1589777068,"/var/www/projects/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,39,1,0,1589777068,"/var/www/projects/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,39,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/projects/mystellar1/shared/config/settings.yml
-|4,39,1,0,1589777049,"/var/www/projects/mystellar1/shared/config/settings.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
--'  58  11  /var/www/projects/mystellar1/config/database.yml
-|4,39,58,11,1589011842,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  12  30  /var/www/projects/mystellar1/config/database.yml
-|4,39,12,30,1589011512,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  14  3  /var/www/projects/mystellar1/config/database.yml
-|4,39,14,3,1589011511,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  47  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,47,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  50  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,50,15,1589011228,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  56  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,56,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  57  15  /var/www/projects/mystellar1/config/database.yml
-|4,39,57,15,1589011067,"/var/www/projects/mystellar1/config/database.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
--'  23  0  /var/www/projects/mystellar1/config/secrets.yml
-|4,39,23,0,1589010409,"/var/www/projects/mystellar1/config/secrets.yml"
+-'  56  20  ~/config/database.yml
+|4,39,56,20,1590052045,"~/config/database.yml"
+-'  1  0  ~/config/database.yml
+|4,39,1,0,1590051997,"~/config/database.yml"
+-'  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,1,0,1590048964,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,1,0,1590048964,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1590048945,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1590048945,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  1  0  config/unicorn.conf.rb
+|4,39,1,0,1590048898,"config/unicorn.conf.rb"
+-'  1  0  config/unicorn.conf.rb
+|4,39,1,0,1590048898,"config/unicorn.conf.rb"
+-'  1  0  config/unicorn.conf.rb
+|4,39,1,0,1590048898,"config/unicorn.conf.rb"
+-'  1  0  config/unicorn.conf.rb
+|4,39,1,0,1590048898,"config/unicorn.conf.rb"
+-'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  7  0  config/database.yml
+|4,39,7,0,1590016689,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1590016562,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  1  0  config/database.yml
+|4,39,1,0,1589997772,"config/database.yml"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,1,0,1589988550,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,1,0,1589988550,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
 
 # History of marks within files (newest to oldest):
 
-> /var/www/projects/mystellar1/shared/config/settings.yml
-	*	1589880956	0
-	"	2	18
-	^	2	19
-	.	2	18
+> ~/config/database.yml
+	*	1590052041	0
+	"	56	20
+	^	56	21
+	.	56	20
+	+	17	20
+	+	56	20
+
+> /var/www/rails/mystellar1/config/unicorn.conf.rb
+	*	1590048949	0
+	"	1	0
+	^	32	3
+	.	32	3
+	+	4	25
+	+	32	3
+
+> config/unicorn.conf.rb
+	*	1590048891	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	29	2
+	+	3	39
+	+	6	55
+	+	25	3
+	+	13	24
+	+	13	0
+	+	30	2
+	+	26	3
+	+	15	16
+	+	13	8
+	+	6	109
+	+	4	39
+	+	1	0
+	+	30	0
+	+	30	2
+	+	3	39
+	+	6	54
+	+	14	0
+	+	15	16
+	+	27	0
+	+	9	0
+	+	41	4
+	+	1	0
+
+> /var/www/rails/mystellar1/shared/config/settings.yml
+	*	1590037983	0
+	"	1	0
+
+> config/database.yml
+	*	1590016645	0
+	"	7	0
+	^	7	0
+	.	7	0
+	+	3	35
+	+	7	0
+
+> /var/www/rails/mystellar1/Gemfile
+	*	1589988431	0
+	"	54	0
+
+> /var/www/rails/mystellar1/config/secrets.yml
+	*	1589987252	0
+	"	22	145
+	^	22	147
+	.	22	146
 	+	1	127
-	+	2	18
+	+	22	146
+
+> ~/.ssh/config
+	*	1589986605	0
+	"	4	32
+	^	4	33
+	.	4	32
+	+	4	32
+
+> /var/www/projects/mystellar1/shared/config/settings.yml
+	*	1589951111	0
+	"	2	152
+	^	2	153
+	.	2	153
+	+	1	127
+	+	2	143
+	+	2	153
 
 > /var/www/projects/mystellar1/config/database.yml
 	*	1589859605	0
@@ -292,33 +369,6 @@
 	^	23	0
 	.	22	147
 	+	22	147
-
-> config/unicorn.conf.rb
-	*	1588936297	0
-	"	9	0
-	^	9	1
-	.	9	0
-	+	29	2
-	+	3	39
-	+	6	55
-	+	25	3
-	+	13	24
-	+	13	0
-	+	30	2
-	+	26	3
-	+	15	16
-	+	13	8
-	+	6	109
-	+	4	39
-	+	1	0
-	+	30	0
-	+	30	2
-	+	3	39
-	+	6	54
-	+	14	0
-	+	15	16
-	+	27	0
-	+	9	0
 
 > /var/www/projects/mystellar1/config/unicorn.conf.rb
 	*	1588927651	0
@@ -398,19 +448,3 @@
 	^	7	0
 	.	7	0
 	+	7	0
-
-> ~/.ssh/config
-	*	1588577397	0
-	"	4	32
-	^	4	33
-	.	4	32
-	+	4	32
-
-> ~/.gitconfig
-	*	1588576845	0
-	"	2	30
-	^	2	31
-	.	2	30
-	+	10	28
-	+	3	20
-	+	2	30
