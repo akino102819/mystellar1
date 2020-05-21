@@ -1,310 +1,3 @@
-bundle exec unicorn_rails -c config/unicorn.rb -E production -D
-cd /var/www/projects
-cd mystellar1/
-bundle exec unicorn_rails -c config/unicorn.rb -E production -D
-sudo nginx -t
-ps
-ps -a
-ps -e
-cd /var/log/ngin
-cd 
-cd /var/log/ngin
-ls
-mystellar1.conf
-cd mystellar1/
-ls
-cd mystellar1.conf
-cd /var/www/projects
-cd ~
-cd /var/www
-ls
-cd /var
-ls
-cd log
-ls
-cd nginx
-ls
-cd
-/etc/init.d/nginx -h
-cd /var/www/projects/mystellar1
-bundle exec rake assets:precompile RAILS_ENV=production
-sudo service nginx restart
-vi Gemfile
-cd /var/www/projects/mystellar1
-vi Gemfile
-sudo yum install nginx
-cd ~
-cd /etc/nginx/conf.d/
-cd /var/lib
-sudo chmod -R 775 nginx
-sudo service nginx start
-config/database.yml
-cd ~
-cd /var/www/projects
-config/database.yml
-vim config/unicorn.conf.rb
-cd /var/www/projects
-cd /var/www/projects/mystellar1
-vi config/unicorn.conf.rb
-sudo nginx -s reload
-cd /etc/nginx/nginx.conf
-cd ~
-cd /etc/nginx/nginx.conf
-/etc/init.d/nginx -h
-
-cd vim
-ls
-cd /etc/nginx/conf.d
-ls
-cd mystellar1.conf
-cd mystellar1.conf/
-ls -v
-cd /etc/nginx/nginx.conf
-vim mystellar1.conf/
-vi mystellar1.conf/
-sudo vi mystellar1.conf/
-ls -;
-ls -l
-chmod 764 mystellar1.conf
-ls -l
-conf
-cd /etc/nginx/
-cd /var/log/ngin
-cd vi /etc/nginx/
-ls
-cd /var/log/ngin
-cd /var/www
-la
-ls
-cd ~
-cd /var/www
-cd /var
-ls
-cd /var/log/ngin
-cd ~
-cd /var/log/ngin
-cd vi /etc/nginx/
-cd /var/www/projects
-ls
-vendor
-cd /var/www/projects/mystellar1
-ls
-cd vi /etc/nginx/
-vi config/secrets.yml
-cd vi /etc/nginx/
-lssudo vi /etc/nginx/conf.d/mystellar1.conf
-sudo yum install nginx
-cd /etc/nginx/
-ls
-cd nginx.conf    
-cd nginx.conf/
-sudu nginx.conf
-sudu vi nginx.conf
-sudo vi nginx.conf
-cd conf.d
-sudo vi mystellar.conf
-cd /var/lib
-sudo chmod -R 775 nginx
-cd var/
-cd ~
-cd /var
-ls -l
-ps unicorn
-cd /var/www/projects/mystellar1
-bundle exec unicorn_rails -c config/unicorn.conf.rb -E production -D
-ls
-/shared/tmp/sockets/unicorn.sock
-bundle install
-vi config/unicorn.conf.rb
-sudo service nginx start
-nginx -t
-sudo nginx -t
-cd /var/www
-cd ~
-sudo -i
-cd /var/www
-cd /var/www/projects/mystellar1
-grep -R "proxy_buffer_size" /etc/nginx/*
-sudo nginx -t
-ls
-cd ~
-
-ls
-cd /etc/nginx/
-ls
-sudo nginx -t
-unip -d 
-unip -d /etc/nginx/conf.d/
-cd ~
-ls
-ls -C /etc | head
-ls -l /
-ls
-ls --a
-ls -all
-ls -all /
-ls -all /var/
-cd ~
-ls -all /
-unip -d vi
-cd /etc
-ls
-unip -d /etc
-unip -d nginx
-ls
-cd ~
-tree /
-tree -d /
-tree /var
-tree /var/
-tree /etc
-tree -d /etc
-ls
-tree 
-tree /var
- -type d | sede "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/" 
-find var -type d | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
-find . -type d | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
-find . -type d | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
-find /var -type d | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
-ls
-cd /mystellar1.conf
-ls -i
-ls -a
-ls. ssh
-cd ssh
-cd ssh/
-cd vim
-cd /var
-ls -all
-cd ~
-ls -all
-ls /
-ls/var/
-ls/var
-ls /var
-ls -all /
-ls -all /var
-.
-ls -all /usr
-cd /var
-ls
-ls -all /www
-ls -all
-cd /www
-cd /www/
-cd /var/www
-ls -all
-cd projects 
-ls -all
-cd /mystellar1
-cd mystellar1
-ls -all
-cd ~
-cd /etc
-ls
-cd ~ 
-ls -all
-cd /etc
-ls -all
-cd /nignx
-cd nignx
-cd nignx/
-/etc/nginx
-ls
-cd /etc/nginx
-ls -all
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-ls
-cd nginx.conf
-cd /etc/nginx/conf.d/
-ls -all
-rm -f mystellar.conf
-ls -all
-rm mystellar.conf
-rm -rf 'mystellar.conf'
-ls -all
-rm -rf mystellar.conf
-chmod 755 mystellar.conf
-la
-ls -all
-sudo chown nobody:nogroup gpttracP01.img
-chmod 755 mystellar.conf
-sudo -l
-sudu -i
-sodu -i
-sudo -i
-cd /etc/nginx
-ls -all
-cd /etc/nginx/conf.d/
-ls
-ls -al
-sudo chmod -r 775 mystellar.conf
- sudo chmod -R 775 /var/lib/nginx/
-ls -all
- sudo chmod -R 755 /var/lib/nginx/
-ls -all
- sudo chmod -R 755 /var/lib/nginx/mystellar.conf
-sudo chmod -r 755 mystellar.conf
- sudo chmod -R 775 /var/lib/nginx/mystellar.conf
-sudo chmod -r 755 mystellar.conf
-sudo chmod -r 755 /etc/nginx/conf.d/
- sudo chmod -R 775 /etc/nginx/conf.d/
-ls -all
-rm -rf mystellar.conf
-ls -all
- sudo chmod -R 777 /etc/nginx/conf.d/
-ls -all
-rm -rf mystellar.conf
-ls -all
-rm -rf protospace.conf
-ls -all
-cd config/unicorn.conf.rb
-cd /var/www/projects/mystellar1
-sudo service nginx restart
-sudo nginx -t
-/etc/nginx/conf.d/
-cd /etc/nginx/conf.d/
-
-cd /etc/nginx/
-ls
-cd  nginx.conf 
-
-cd /etc/nginx/nginx.conf 
-sudo vi /etc/nginx/nginx.conf   
-sudo vi /etc/nginx/nginx.conf.default
-sudo vi /etc/nginx/nginx.conf   
-sudo vi /etc/nginx/default.d 
-cd  default.d 
-ls
-ls -all
-cd /etc/nginx
-ls
-cd /etc/nginx/conf.d/
-sudo vi mystellar1.conf
-cd ~
-cd /var/www/projects/mystellar1
-sudo nginx -t
-cd /var/www/rails/mystellar1/log
-/var/www/rails/mystellar1
-ls
-cd log
-ls -all
-cd /etc/nginx/conf.d/
-sudo vi mystellar1.conf
-cd mystellar1
-/var/www/rails/mystellar1
-cd ~
-/var/www/rails/mystellar1
-sudo nginx -t
-cd /var/www/projects/mystellar1
-sudo service nginx start
-ps -ef | grep unicorn | grep -v grep
-unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-cd /etc
-ls -all
-cd init.d
-ls -all
 cd /mystellar1
 cd =
 cd ~
@@ -998,3 +691,310 @@ git add .
 git pull origin master
 git push origin master
 
+git add .
+git pull origin master
+git push origin master
+bundle install
+bundle exec cap production deploy
+git pull origin master
+git push origin master
+
+bundle exec cap production deploy
+cd /var/www/projects/mystellar1
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+vim config/database.yml
+sudo yum install nginx
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/current/config/unicorn.conf.rb -D -E production
+ps -ef | grep unicorn | grep -v grep
+sudo cat /var/log/nginx/error.log
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/current/config/unicorn.conf.rb -D -E production
+sudo yum install nginx
+234 packages excluded due to repository priority protections
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+ps -ef | grep unicorn | grep -v grep
+sudo vim log/unicorn.log
+sudo vim log/production.log
+sudo cat /var/log/nginx/error.log
+ls -la /tmp/nf
+cd/tmp/nf
+cd /tmp/nf
+cd /tmp
+ls -la /tmp/nf
+cd nf
+ls -la
+cd /var/www/projects/mystellar1
+ls
+sudo vi mystellar1.conf
+ cd /etc/nginx/conf.d/
+sudo vi mystellar1.conf
+git add .
+cd /var/www/projects/mystellar1
+git add .
+git commit -m "Add for deploy by capistrano"
+git push origin master
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+sudo service nginx restart
+
+bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
+sudo cat /var/log/nginx/error.log
+cd ~
+sudo cat /var/log/nginx/error.log
+sudo vi mystellar1.conf
+ cd /etc/nginx/conf.d/
+sudo vi mystellar1.conf
+sudo cat /var/log/nginx/error.log
+ls -l /var/www/projects/mystellar1/tmp/sockets/.unicorn.sock
+ls -ld /var/www/projects/mystewllar/tmp/sockets
+ls -ld /var/www/projects/myste
+ls -ld /var/www/projects/mystellar/tmp/sockets
+
+cd /etc/nginx/conf.d/default.conf/etc/nginx/conf.d/default.conf/etc/nginx/conf.d/default.confv
+sudo cat /var/log/nginx/error.log
+
+
+ls -all
+cd shared
+cd config
+vi settings.yml
+bundle exec cap production deploy:db_create 
+cd /var/www/projects/mystellar1
+sudo yum install nginx
+cd ~
+cd /etc/nginx/conf.d/
+sudo vi mumu.conf 
+;s
+ls -all
+rm mumu.conf
+ls -all
+rm mumu.conf
+ls -all
+sudo vi mystellar.conf
+ls -all
+rm mystellar.conf
+sudo vi mystellar1.conf
+cd ~
+sudo service mysqld start
+mysql -u root -p
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+cd /var/www/projects/mystellar1
+git add .
+cd /var/www/projects/mystellar1
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+bundle exec rake assets:precompile RAILS_ENV=production
+sudo service nginx restart
+ps -ef | grep unicorn | grep -v grep
+sudo cat /var/log/nginx/error.log
+ls
+cd /etc
+ls
+cd nginx
+ls
+cd conf.d    
+ls
+sudo vi mystellar1.conf
+cd /var/www/projects/mystellar1
+ls
+cat /etc/system-release
+cd /var/www/projects/mystellar1
+cat /etc/system-release
+bundle exec cap production deploy:db_create 
+bundle exec cap production deploy:check
+bundle exec cap production deploy
+bundle exec cap production deploy:db_create 
+bundle exec cap production deploy
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+bundle exec cap production unicorn:stop
+bundle exec cap production deploy
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+cd /var/www/projects/mystellar1
+bundle exec cap production deploy
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+#<Thread:0x000000000257d710@/home/test_user/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sshkit-1.21.0/lib/sshkit/runners/parallel.rb:10 run> terminated with exception (report_on_exception is true):
+Traceback (most recent call last):
+        1: from /home/test_user/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sshkit-1.21.0/lib/sshkit/runners/parallel.rb:11:in `block (2 levels) in execute'
+/home/test_user/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/sshkit-1.21.0/lib/sshkit/runners/parallel.rb:15:in `rescue in block (2 levels) in execute': Exception while executing as test_user@54.95.14.214: Net::SSH::ConnectionTimeout (SSHKit::Runner::ExecuteError)
+(Backtrace restricted to imported tasks)
+cap aborted!
+SSHKit::Runner::ExecuteError: Exception while executing as test_user@54.95.14.214: Net::SSH::ConnectionTimeout
+Caused by:
+Net::SSH::ConnectionTimeout: Net::SSH::ConnectionTimeout
+Caused by:
+Errno::ETIMEDOUT: Connection timed out - connect(2) for 54.95.14.214:22
+Tasks: TOP => rbenv:validate
+sudo vim /etc/hosts
+bundle exec cap production unicorn:stop
+sudo service mysqld start
+sudo service mysqld status
+rake secret
+cd shared
+cd config
+vi settings.yml
+bundle exec cap production deploy:db_create 
+cd /var/www/projects/mystellar1
+bundle exec cap production deploy:db_create 
+ls
+cd /var/www/projects/mystellar1
+cd shared
+ls
+cd /var/www/projects/mystellar1
+cd / var / www / mystellar1 / current
+pwd
+cd / var / www / mystellar1 / current
+cd /var/www/mystellar1/current
+cd /var/www/projects/mystellar1
+cd /current
+cd current
+ls
+tree mystellar1/ -l 2
+tree mystellar1/ -l2
+sudotree mystellar1/ -l2
+sudo tree mystellar1/ -l2
+find .
+pwd;find . | sort | sed '1d;s/^\.//;s/\/\([^/]*\)$/|--\1/;s/\/[^/|]*/|  /g'
+ls
+pwd
+cd ~
+cd /var/www/
+ls -all
+cd /var/www/rails
+sudo mkdir rails
+ls
+cd rails
+
+cd /var/www
+mv -i projects rails
+ls
+ls -all
+rm rails
+ls -all
+rm rails 
+sudo rm rails
+sudo -i
+cd rails
+chown test_user file
+cd /var/www
+chown test_user rails
+ls -all
+chown test_user root rails
+ls -all
+chown -r test_user rails
+ls -all
+sudo chown  test_user rails
+ls -all
+sudo chown test_user rails
+ls -all
+mv -i projects rails
+ls -all
+cd rails
+ls
+cd projects
+ls
+mv -i vendor rails
+ls
+pwd
+cd /var/www
+cd rails
+ls
+cd projects
+find vendor
+mv -i rails vendor
+ls
+mv -i vendor www/rails
+mv -i 
+ls
+pwd
+
+mv -i railsprojects
+
+mv -i projects www
+
+
+ls
+cd projects
+ls
+cd project
+ls
+pwd
+mv -i /projects/projects/ /www/
+mv  /projects/projects /www
+mv -i rails projects
+cd /var/www
+mv -i 
+la
+ls
+cp Gemfile  Gemfile.lock  mystellar1  vendor rails
+cd rails
+cp Gemfile  Gemfile.lock  mystellar1  vendor rails
+cp Gemfile  Gemfile.lock  mystellar1  vendor /www/rails
+ls
+cp Gemfile  Gemfile.lock  mystellar1  vendor www
+cd /var/www
+cd rails
+ls
+sudo rm projects
+sudo rm -rf projects
+ls
+cd ~
+mk dir .ssh
+chmod 700 .ssh
+cd .ssh
+ssh-keygen -t rsa
+ls
+vim config
+cat aws_git_rsa.pub
+chmod 600 config
+ssh -T github
+cd /var/www/rails
+git clone git@github.com:https://github.com/akino102819/mystellar1.git
+git clone git@github.com:git@github.com:akino102819/mystellar1.git
+git clone git@github.com:akino102819/mystellar1.git
+cd /var/www/rails
+ls
+cd mystellar1
+rake secret
+vim config/secrets.yml
+vi Gemfile
+gem install bundler
+bundle install
+vi config/unicorn.conf.rb
+sudo yum install nginx
+cd /etc/nginx/conf.d/
+sudo vi mystellar1.conf
+cd /var/lib
+sudo chmod -R 775 nginx
+vi config/database.yml
+cd /var/www/rails
+vi config/database.yml
+cd mystellar1
+ls
+sudo vi config/database.yml
+sudo service mysqld start
+
+rake db:create RAILS_ENV=production
+sudo chmod -R 775 /var/lib/nginx/
+
+sudo chmod -R 775 config/database.yml
+rake db:create RAILS_ENV=production
