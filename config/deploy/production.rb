@@ -1,5 +1,5 @@
 server '54.95.14.214',user: 'test_user', roles: %W{app db web}
-set :ssh_options, keys: '~/.ssh/mystellar.pem' 
+set :ssh_options, keys: '~/.ssh/aws_git_rsa' 
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
