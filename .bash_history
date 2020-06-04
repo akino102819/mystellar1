@@ -1,413 +1,3 @@
-cd /mystellar1
-cd =
-cd ~
-cd /var/www/projects/mystellar1
-ls -all
-cd config
-ls -all
-cd /var/www/projects/mystellar1
-cat log/unicorn.log -n
-bundle exec gem list | grep unicorn 
-bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-cd ~
-ls -all
-cd /
-ls -
-ls -all
-cd bin
-ls -all
-cd /var/www/projects/mystellar1
-bundle exec
-bundle exec rake assets:precompile RAILS_ENV=production
-sudo service nginx restart
-bundle exec unicorn_rails -c /var/www/projects/myatellar1/config/unicorn.conf.rb -D -E production
-find / -name Gemfile
-cd /var/www/projects/mystellar1
-find / -name Gemfile
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
-cd /var/www/projects/mystellar1
-bundle exec unicorn_rails -c /var/www/projects/myatellar1/config/unicorn.conf.rb -D -E production
-cat log/unicorn.log -n
-tail unicorn.staderr.log
-cd /var/www/app/log
-cd /var/www/app
-cd /var/www
-ls -all
-cd projects
-ls -all
-cd mystellar1
-ls -all
-cd log
-ls -all
-cd unicorn.log
-cat log/unicorn.log 
-cat log/unicorn.log -n
-cd ~
-cd /var/www/projects/mystellar1
-ps -ef | grep unicorn | grep -v grep
-EDITOR=vim bin/rails credentials:edit
-rails aborted!
-EDITOR=vim bin/rails credentials:edit
-rails credentials:edit
-cat log/unicorn.log -n
-bundle exec unicorn_rails -c config/unicorn.rb
-vim Gemfile
-bundle install
-cd config
-ls -all
-vim config/unicorn.conf.rb
-sudo chmod -R 777 config/unicorn.conf.rb
-ls -all
-sudo chmod -R 777 unicorn.conf.rb
-ls -all
-vim config/unicorn.conf.rb
-cd /var/www/projects/mystellar1
-vim config/unicorn.conf.rb
-cd config
-ls -all
-vim unicorn.conf.rb
-cd /var/www/projects/mystellar1
-bundle exec unicorn_rails -c config/unicorn.rb
-cd /var/www/projects/mystellar1
-cd config/
-ls -all
-cd  initializers
-ls -all
-vin
-cd config/
-cd /var/www/projects/mystellar1
-cd config/
-ls -all
-bundle exec unicorn_rails -c config/unicorn.conf.rb
-ls -all
-vim config/unicorn.conf.rb
-sudo vim config/unicorn.conf.rb
-sudo vi config/unicorn.conf.rb
-sudo vim config/unicorn.conf.rb
-sudo vi config/unicorn.conf.rb
-sudo vim config/unicorn.conf.rb
-vim config/unicorn.conf.rb
-sudo chmod -R 777 config/unicorn.conf.rb
-cd /var/www/projects/mystellar1
-sudo vim config/unicorn.conf.rb
-cd config/
-sudo vim unicorn.conf.rb
-cd /var/www/projects/mystellar1
-bundle exec unicorn_rails -c config/unicorn.conf.rb
-ps -ef | grep unicorn | grep -v grep
-sudo service nginx restart
-cd /var/www/projects/mystellar1
-vi config/database.yml
-vim config/database.yml
-sudo service mysqld start
-bundle exec rake db:create RAILS_ENV=production
-sudo service nginx restart
-cd /var/www/projects/mystellar1
-systemctl status nginx.service
-sudo service nginx restart
-sudo systemctl status nginx.service
-sudo vi /etc/nginx/nginx.conf
-sudo nginx -t
-Failed to read PID from file /run/nginx.pid: Invalid argument
-mkdir /etc/systemd/system/nginx.service.d
-sudo mkdir: cannot create directory ‘/etc/systemd/system/nginx.service.d’: Permission denied
-sudo mkdir /etc/systemd/system/nginx.service.d
-cd etc
-ls
-cd /etc
-ls -all
-cd /var/www/projects/mystellar1
-printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
-sudo printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
- sudo chmod -R 775 system/nginx.service.d
- sudo chmod -R 775 /etc/systemd/system/nginx.service.d/override.conf
-sudo chmod -R 775 /etc/systemd/system/nginx.service.d/override.conf
-cd /etc/systemd/system/nginx.service.d/
-ls -all
-sudo printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
-sudo printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d
-cd /etc/systemd/system
-ls -all
-sudo chmod -R 775 /etc/systemd/system/nginx.service.d
-ls -all
-sudo printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d
-sudo printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
--bash: /etc/systemd/system/nginx.service.d/override.conf: Permission denied
-sudosystemctl edit nginx.service
-sudo systemctl edit nginx.service
-ls -all
-cd nginx.service.d
-ls -all
-sudo printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
-rm -rf .#override.confdf384a376a8864admm-a
-ls -all
-rm -rf .#override.confdf384a376a8864admm-a
-sudo chmod -R 775 /etc/systemd/system/nginx.service.d/.#override.confdf384a376a8864admm-a
-rm -rf .#override.confdf384a376a8864admm-a
-ls -all
-sudo chmod -R 777 /etc/systemd/system/nginx.service.d/.#override.confdf384a376a8864admm-a
-ls -all
-sudo chmod -R 777 nginx.service.d/.#override.confdf384a376a8864admm-a
-sudo chmod -R 777 .#override.confdf384a376a8864admm-a
-ls -all
-sudo chmod -R 777 .#override.confdf384a376a8864admm-a
-cd 
-ls -all
-cd /var/www/projects/mystellar1
-
-sudo chmod -R 777 /etc/systemd/system/nginx.service.d/.#override.confdf384a376a8864admm-a
-rm -rf  /etc/systemd/system/nginx.service.d/.#override.confdf384a376a8864admm-a
-rm -rf /etc/systemd/system/nginx.service.d/.#override.confdf384a376a8864admm-a
-cd /etc/systemd/system/nginx.service.d/.#override.confdf384a376a8864admm-a
-cd /etc/systemd/system/nginx.service.d/
-sudo vim nginx.service.d/.#override.confdf384a376a8864admm-a
-ls -all
-rm -rf .#override.confdf384a376a8864admm-a
-sudo chmod -R 777 .#override.confdf384a376a8864admm-a
-ls -all
-.#override.confdf384a376a8864admm-a
-systemctl edit nginx.service
-systemctl edit --full nginx.service
-sudo systemctl edit --full nginx.service
-mv .#override.confdf384a376a8864admm-a
-mv .#override.confdf384a376a8864admm-a override.conf
-sudo chmod -R 777 /etc/systemd/system/nginx.service.d/.#override.confdf384a376a8864admm-a
-mv .#override.confdf384a376a8864admm-a override.conf
-sudo mv .#override.confdf384a376a8864admm-a override.conf
-ls -all
-sudo ExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
-systemctl daemon-reload
-systemctl restart nginx 
-exit
-
-ls -all
-systemctl daemon-reload
-cd /var/www/projects/mystellar1
-systemctl daemon-reloa
-sudo ExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/
-sudo ExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
-sudo systemctl daemon-reload
-sudo systemctl restart nginx 
-
-
-
-sudo printf "[Service]\nExecStartPost=/bin/sleep 0.1\n" > /etc/systemd/system/nginx.service.d/override.conf
-sudo systemctl daemon-reload
-sudo systemctl restart nginx 
-cd /run/uwsgi/mysite3.sock
-cd /run
-ls -all
-ls /
-cd /
-cd /var/www/projects/mystellar1
-cd /etc/systemd/system
-cd /var/www/projects/mystellar1
-bundle exec unicorn_rails -c config/unicorn.conf.rb
-sudo nginx -t
-ps -ef | grep unicorn | grep -v grep
-sudo systemctl status nginx.service
-sudo systemctl restart .service
-sudo systemctl start .service
-sudo systemctl status .service
-sudo systemctl start nginx.service
-cd /var/www/projects/mystellar1
-sudo service nginx restart
-sudo systemctl restart nginx
-bundle exec unicorn_rails -c /var/www/projects/アプリ名/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-ps -ef | grep unicorn | grep -v grep
-tail log/unicorn_error.log
-tail log/unicorn.log
-sudo chmod -R 775 /var/lib/nginx/
-bundle exec rake db:migrate RAILS_ENV=production
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-tail log/unicorn_error.log
-cd /log
-ls -all
-cd /log
-cd log 
-ls -all
-sudo chmod -R 775 /log/unicorn_error.log
-tail log/unicorn_error.log
-cd /var/www/projects/mystellar1
-cd /
-cd /log
-ls
-cd var
-ls
-log
-cd log
-ls
-tail log/unicorn_error.log
-tail log/unicorn.log
-cd /var/www/projects/mystellar1
-tail log/unicorn.log
-unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-cd 
-kill -QUIT `cat /tmp/unicorn.pid`
-bundle exec unicorn_rails -c /var/www/projects/mystellar/config/unicorn.conf.rb -D -E production
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-cd log
-ls
-cd /var/www/projects/mystellar1
-cd tmp
-ls
-cd /var/www/projects/mystellar1
-kill -QUIT `cat config/unicorn.conf.rb`
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-
-tail log/unicorn.log
-tail log/unicorn_error.log
-bundle exec gem list | grep unicorn
-tail stderr.log
-cd /etc/nginx/conf.d/
-la
-ls
-sudo vim mystellar1.conf
-tail log/unicorn.log
-cd /var/www/projects/mystellar1
-tail log/unicorn.log
-bundle install --path vendor/bundle --jobs=4
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-kill -QUIT `cat config/unicorn.conf.rb`
-kill -HUP `cat config/unicorn.conf.rb`
-kill -QUIT `cat config/unicorn.conf.rb`
-kill -HUP `cat config/unic
-
-
-exit
-kill -HUP `cat config/unic
-
-
-exit
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-kill -HUP `cat config/unicorn.conf.rb`
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-bundle exec rails -v
-bundle exec rake secret
-vi config/secrets.yml
-bundle exec rake db:create RAILS_ENV=production
-bundle exec rake secret
-bundle install --path vendor/bundle
-cd mystellar1/
-bundle exec rake secret
-sudo service nginx restart
-sudo systemctl restart nginx
-bundle install
-sudo chmod -R 775 /var/lib/nginx/
-cp config/database.yml config/database.yml.org
- vim config/database.yml
-sudo service mysqld start
-bundle exec rake db:create RAILS_ENV=production
- vim config/database.yml
-bundle exec rake db:create RAILS_ENV=production
-sudo service mysqld start
-bundle exec rake db:migrate RAILS_ENV=production
-bundle exec rake assets:precompile RAILS_ENV=production
-sudo service nginx restart
-sudo systemctl restart nginx
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-ps -ef | grep unicorn | grep -v grep
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-kill -QUIT `cat config/unicorn.conf.rb`
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-ps -ef | grep unicorn | grep -v grep
-kill 13412
-ps -ef | grep unicorn | grep -v grep
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-RAILS_SERVE_STATIC_FILES=1 unicorn_rails -c config/unicorn.rb -E production -D
-cd /var/log/nginx/
-ls
-ls -all
-sudo cat /var/log/nginx/error.log
-/var/www/rails/mystellar/tmp/sockets/
-cd/var/www/rails/mystellar/tmp/sockets/
-ls
-cd/var/www/rails/mystellar1
-cd /var/www/rails
-cd ~
-cd/var/www/rails/mystellar1
-cd /var/www
-ls
-p
-ls -all
-cd/var/www/rails/mystellar1
-cd /var/www/projects/mystellar1
-cd /var/www
-ls
-cd /var/www/projects/mystellar1
-ls -all
-/var/www/rails/
-cd /var/www/rails/mystellar1
-cd ~
-cd /var/www/
-ls
-cd /var/www/rails/mystellar1
-cd ~
-cd /var/www/rails/mystellar1
-cd /var/www/projects/mystellar1
-cd /var/www/rails/mystellar1
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-cd /var/www/projects/mystellar1
-ls
-cd bin
-ls
-raisl 
-cd rails
-rails rails
-cd /var/www/projects/mystellar1
-ls lss
-cd /
-ls 
-cd var
-ls 
-cd www
-ls 
-cd /var/www/projects/mystellar1
-sudo vi /etc/nginx/conf.d/mystellar1.conf
-sudo service nginx restart
-ps -ef | grep unicorn | grep -v grep
-kill 15562
-ps -ef | grep unicorn | grep -v grep
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-cd ~
-
-cd /var/www/projects/mystellar1
-bundle exec rake assets:precompile RAILS_ENV=production
-sudo service nginx restart
-
-sudo service nginx restart
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-ps -ef | grep unicorn | grep -v grep
-kill -9 4033 
-ps -ef | grep unicorn | grep -v grep
-bundle exec unicorn_rails -c /var/www/projects/mystellar1/config/unicorn.conf.rb -D -E production
-sudo nginx -s reload
-: rake secret
-rake secret
-mkdir shared
-cd ~
-cd /var/www/
-ls
-ls -akk
-ls -all
-
-cd ~
-cd /var/www/mystellar1
-cd /var/www/projects/mystellar1
-mkdir shared
-cd shared
-mkdir config
-cd config
-vi settings.yml
-bundle exec cap production deploy:db_create 
-cd /var/www/projects/mystellar1
-
-kill 8600
-ps -ef | grep unicorn | grep -v grep
-cd ~
 sudo yum install nginx
 cd /etc/nginx/conf.d/
 ls
@@ -998,3 +588,413 @@ sudo chmod -R 775 /var/lib/nginx/
 
 sudo chmod -R 775 config/database.yml
 rake db:create RAILS_ENV=production
+cd /var/www/rails
+cd mystellar1
+unicorn_rails -c /var/www/rails/mumu(アプリの名前)/config/unicorn.conf.rb -D -E production
+rake db:create RAILS_ENV=production
+rake db:migrate RAILS_ENV=production
+sudo service nginx start
+ps -ef | grep unicorn | grep -v grep
+/config/unicorn.conf.rb -D -E production
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+sudo nginx -s reload
+ps -ef | grep unicorn | grep -v grep
+kill 22638
+rake assets:precompile RAILS_ENV=production
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+cd ~
+cd /var/www/mystellar1
+ls
+bundle exec cap production deploy:db_create 
+sudo yum install nginx
+cd /var/www/mystellar1
+mkdir shared
+cd /var/www/rails/mystellar1
+mkdir shared
+cd shared
+mkdir config
+cd config
+vi settings.yml
+bundle exec cap production deploy:db_create 
+sudo yum install nginx
+cd ~
+sudo yum install nginx
+bundle exec cap production deploy:db_create 
+cd /var/www/rails/mystellar1
+bundle exec cap production deploy:db_create 
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+git pull origin master
+bundle exec cap production deploy:db_create 
+cd ~
+cd .ssh
+ssh-add ~/.ssh/mystellar1.pem
+cd ~
+ls
+cd .ssh
+ls
+cd /var/www/rails
+ls
+cd mystellar1
+ssh-add ~/.ssh/mystellar1.pem
+cd .ssh
+ssh-add ~/.ssh/mystellar1.pem
+ls
+ssh-add ~/.ssh/aws_git_rsa
+ll ~/.ssh
+ssh-agent 
+sudo chmod -R 775 aws_git_rsa
+ls
+ll ~/.ssh
+sudo chmod -R 775 aws_git_rsa  .pub
+sudo chmod -R 775 aws_git_rsa .pub
+sudo rm aws_git_rsa .pub
+sudo chmod -R 775 aws_git_rsa .pub
+sudo rm aws_git_rsa
+sudo chmod -R 775 aws_git_rsa .pub
+sudo chmod -R 775 aws_git_rsa
+sudo chmod -R 775 aws_git_rsa aws_git_rsa .pub
+ls -all
+eval `ssh-agent`
+ssh-add ~/.ssh/ws_git_rsa.pub
+ssh-add ~/.ssh/ws_git_rsa
+ssh-add ~/.ssh/aws_git_rsa.pub
+chmod 0600 aws_git_rsa.pub
+
+ssh -i aws_git_rsa.pub
+cd ~
+cd /var/www/rails
+cd mystellar1
+sudo service nginx start
+sudo /bin/systemctl start nginx.service
+sudo systemctl status nginx.service
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+bundle exec unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+sudo log/unicorn.log
+sudo vi log/unicorn.log
+ps -ef | grep unicorn | grep -v grep
+kill 22788
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+sudo vi log/unicorn.log
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+sudo vi log/unicorn.log
+sudo vi log/production.log
+be rake db:migrate RAILS_ENV=production
+rake db:migrate RAILS_ENV=production
+rake aborted!
+YAML syntax error occurred while parsing /var/www/rails/mystellar1/config/database.yml. Please note that YAML must be consistently indented using spaces. Tabs are not allowed. Error: (<unknown>): could not find expected 
+rails new NAME -d mysql
+rails db:create  database.yml
+sudo vim onfig/database.yml
+sudo vim config/database.yml
+rake db:migrate RAILS_ENV=production
+sudo vi /var/log/nginx/access.log
+sudo vi nginx.error.log;
+sudo vi nginx.access.log
+ls
+sudo vi nginx.error.log
+cd log
+ls
+sudo vi nginx.error.log
+cd /var/www/rails
+cd mystellar1
+cd config
+cd unicon
+ls
+vi config/unicorn.conf.rb
+cd mystellar1
+cd /var/www/rails
+cd mystellar1
+vi config/unicorn.conf.rb
+cd ~
+sudo yum install nginx
+cd /etc/nginx/conf.d/
+sudo vi mystellar.conf
+cd /var/lib
+sudo chmod -R 775 nginx
+cd ~
+ls
+cd /var/lib
+ls
+cd ~
+vi config/database.yml
+cd /var/www/rails
+cd mystellar1
+sudo service mysqld start
+ln -s /var/lib/mysql/mysql.sock /tmp/mysql.sock
+sudo service nginx start
+sudo vi nginx.error.log
+cd log
+sudo vi nginx.error.log
+cd ~
+cd /etc/nginx/conf.d/
+sudo vi mystellar1.conf
+ls
+rm mystellar.conf
+ls
+cd ~
+sudo service mysqld start
+mysql -u root -p
+git add .
+git commit -m "Add for deploy by capistrano"
+git push origin master
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+cd /var/www/rails
+cd mystellar1
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+sudo service nginx start
+sudo systemctl status nginx
+sudo systemctl status nginx -l
+sudo vi/var/log/nginx/error.log
+ls
+sudo nginxerror.log
+sudo vi nginxerror.log
+cd log
+ls
+sudo vi nginx.error.log
+cd ~
+cd /var/www/rails
+cd mystellar1
+cd /etc/nginx/conf.d/
+
+pwd
+sudo vi mystellar1.conf
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+cd ~
+cd /var/www/rails
+cd mystellar1
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+sudo cat /var/log/nginx/error.log
+cd /etc/nginx/conf.d/
+ls
+sudo vi mystellar1.conf
+bundle exec cap production deploy
+bundle install
+git pull origin master
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+git push origin master
+bundle exec cap production deploy
+cd /var/www/rails
+cd mystellar1
+bundle exec cap production deploy
+cd ~
+cd .ssh
+ls
+cd ~
+cd /var/www/rails
+cd mystellar1
+bundle exec cap production deploy
+cd /var/www/rails
+cd mystellar1
+git pull origin master
+git push origin master
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+git pull origin master
+git push origin master
+cd /config/database.yml
+cd config/database.yml
+ls
+vi config/database.yml
+git pull origin master
+git push origin master
+cd .ssh
+
+cd ~
+cd /var/www/rails
+cd mystellar1
+git pull origin master
+git push origin master
+git pull origin master
+cd .ssh
+ls
+vim authorized_keys
+chmod 600 authorized_keys
+exit
+ls
+git pull origin master
+ssh aws_git_rsa
+ssh mystellar_key_rsa
+ssh Mystellar_key_rsa
+ssh mystellar1_key_rsa
+ssh-keygen -t rsa
+ls
+mkdir .ssh
+chmod 700 .ssh
+cd .ssh
+vim authorized_keys
+chmod 600 authorized_keys
+exit
+cd .ssh
+cd ~
+git pull origin master
+cd /var/www/rails
+cd /var/www/rails/mystellar1
+git pull origin master
+rake secret
+bundle exec cap production deploy:db_create 
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+git pull origin master
+cd shared
+cd config
+vi settings.yml
+cd ~
+cd /var/www/rails/mystellar1
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+ vim ~/.ssh/config   
+ls
+cd ssh
+cd ~
+cd .ssh
+ls
+vim ~/.ssh/config   
+cd ~
+vi ~/.gitconfig
+vi config
+cd .ssh
+vi config
+cat aws_git_rsa.pub
+ ssh -T github
+ls
+vi config
+ls -all
+ssh-keygen -t rsa
+ls
+chmod 777 .ssh
+sudo chmod 777 .ssh
+sudo chmod 777 aws_git_rsa .pub
+sudo chmod 777 'aws_git_rsa .pub'
+ls -all
+kill 'aws_git_rsa .pub'
+ls -all
+kill -9 'aws_git_rsa .pub'
+kill -9 'aws_git_rsa .pub',aws_git_rsa
+ps ax | grep "ssh"
+
+ps ax | grep .pub
+ps ax | grep aws_git_rsa .pub
+kill 1679
+ls -all
+kill -9 1679
+ssh-add -d ~/.ssh/aws_git_rsa .pub
+ls -all
+kill -9 'aws_git_rsa .pub',aws_git_rsa
+ssh-add -d ~/.ssh/'aws_git_rsa .pud'
+
+
+kill 'aws_git_rsa .pub'
+sudo kill 'aws_git_rsa .pub'
+ls -all
+cd ~
+git pull origin master
+git push origin master
+cd .ssh
+vim config
+chmod 600 config
+cd ~
+git pull origin master
+cd /var/www/rails/mystellar1
+git pull origin master
+cd ~
+cd ssh
+cd .ssh
+ls -all
+sudo chmod 700 'aws_git_rsa .pub'
+cd ~
+cd /var/www/rails/mystellar1
+git pull origin master
+less ~/.ssh/aws_git_rsa.pub
+less ~/.ssh/aws_git_rsa .pub
+less ~/.ssh/aws_git_rsa
+less ~/.ssh/aws_git_rsa.pub
+vim ~/.ssh/config   
+ssh -T git@github.com
+git push origin master
+git pull origin master
+git push origin master
+git pull origin master
+chmod 600 authorized_keys
+cd ~
+cd .ssh
+chmod 600 authorized_keys
+chmod 700 .ssh
+cd .ssh
+vim authorized_keys
+chmod 600 authorized_keys
+exit
+git pull origin master
+cd .ssh
+sudo chmod 777 'aws_git_rsa .pub'
+sudo chmod 700[ 'aws_git_rsa .pub'
+ls
+ls -all
+sudo chmod 700 'aws_git_rsa'
+cd ~
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+ssh-add ~/.ssh/Mystellar.pem
+cd .ssh
+ls
+cd ~
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+ssh-add ~/.ssh/aws_git_rsa
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+git pull origin master
+git push origin master
+bundle exec cap production deploy
+ps -ef | grep unicorn | grep -v grep
+kill 9337
+ps -ef | grep unicorn | grep -v grep
+bundle exec cap production deploy
+cd /var/www/rails/mystellar1
+bundle exec cap production deploy
+unicorn_rails -c /var/www/rails/mystellar1/config/unicorn.conf.rb -D -E production
+ps -ef | grep unicorn | grep -v grep
+bundle exec cap production deploy
+ps aux | grep unicorn
+kill 9079
+kill -9 9079
+kill -9 119420
+kill -9 908
+ssh-add ~/.ssh/mystellar_key_rsa
+ssh-add ~/.ssh/Mystellar.pe,
+ssh-add ~/.ssh/Mystellar.pem
+sudo kill -9 9079
+ps aux | grep unicorn
+sudo kill -9 9316
+ps aux | grep unicorn
+ssh-add ~/.ssh/aws_git_rsa  
+ssh-add ~/.ssh/authorized_keys
+git pull origin master
+git push origin master
+git add .
+git commit -m "Add for deploy by capistrano"
+git pull origin master
+git push origin master
+bundle exec cap production deploy
