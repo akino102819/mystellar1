@@ -10,19 +10,24 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq
-|2,0,1590052045,,"wq"
+|2,0,1591271037,,"wq"
 :q!
-|2,0,1590048898,,"q!"
+|2,0,1591240047,,"q!"
 :q
-|2,0,1590016685,,"q"
+|2,0,1591198295,,"q"
 :wq!
 |2,0,1588936274,,"wq!"
 :q1
 |2,0,1588653142,,"q1"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1591198279,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -31,235 +36,298 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
-	o
-|3,1,36,0,1,0,1588936278,"o"
+""0	CHAR	0
+	a
+|3,1,0,0,1,0,1591198279,"a"
+"-	CHAR	0
+	a
+|3,0,36,0,1,0,1591197997,"a"
 
 # File marks:
-'0  56  20  ~/config/database.yml
-|4,48,56,20,1590052045,"~/config/database.yml"
-'1  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,49,1,0,1590048964,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
-'2  1  0  config/unicorn.conf.rb
-|4,50,1,0,1590048898,"config/unicorn.conf.rb"
-'3  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,51,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
-'4  7  0  config/database.yml
-|4,52,7,0,1590016689,"config/database.yml"
-'5  1  0  config/database.yml
-|4,53,1,0,1589997772,"config/database.yml"
-'6  1  0  config/database.yml
-|4,54,1,0,1589997772,"config/database.yml"
-'7  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,55,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
-'8  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,56,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
-'9  54  0  /var/www/rails/mystellar1/Gemfile
-|4,57,54,0,1589988441,"/var/www/rails/mystellar1/Gemfile"
+'0  2  146  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,48,2,146,1591271037,"/var/www/rails/mystellar1/shared/config/settings.yml"
+'1  59  1  /var/www/rails/mystellar1/config/database.yml
+|4,49,59,1,1591264598,"/var/www/rails/mystellar1/config/database.yml"
+'2  22  1  /var/www/rails/mystellar1/config/secrets.yml
+|4,50,22,1,1591242656,"/var/www/rails/mystellar1/config/secrets.yml"
+'3  22  152  /var/www/rails/mystellar1/config/secrets.yml
+|4,51,22,152,1591242618,"/var/www/rails/mystellar1/config/secrets.yml"
+'4  22  146  /var/www/rails/mystellar1/config/secrets.yml
+|4,52,22,146,1591242579,"/var/www/rails/mystellar1/config/secrets.yml"
+'5  22  146  /var/www/rails/mystellar1/config/secrets.yml
+|4,53,22,146,1591242579,"/var/www/rails/mystellar1/config/secrets.yml"
+'6  3  9  ~/.ssh/config
+|4,54,3,9,1591242327,"~/.ssh/config"
+'7  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,55,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+'8  22  146  /var/www/rails/mystellar1/config/secrets.yml
+|4,56,22,146,1591239910,"/var/www/rails/mystellar1/config/secrets.yml"
+'9  22  146  /var/www/rails/mystellar1/config/secrets.yml
+|4,57,22,146,1591239910,"/var/www/rails/mystellar1/config/secrets.yml"
 
 # Jumplist (newest first):
--'  56  20  ~/config/database.yml
-|4,39,56,20,1590052045,"~/config/database.yml"
--'  1  0  ~/config/database.yml
-|4,39,1,0,1590051997,"~/config/database.yml"
--'  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,1,0,1590048964,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,1,0,1590048964,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1590048945,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1590048945,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  1  0  config/unicorn.conf.rb
-|4,39,1,0,1590048898,"config/unicorn.conf.rb"
--'  1  0  config/unicorn.conf.rb
-|4,39,1,0,1590048898,"config/unicorn.conf.rb"
--'  1  0  config/unicorn.conf.rb
-|4,39,1,0,1590048898,"config/unicorn.conf.rb"
--'  1  0  config/unicorn.conf.rb
-|4,39,1,0,1590048898,"config/unicorn.conf.rb"
--'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
--'  1  0  /var/www/rails/mystellar1/shared/config/settings.yml
-|4,39,1,0,1590037987,"/var/www/rails/mystellar1/shared/config/settings.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  7  0  config/database.yml
-|4,39,7,0,1590016689,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1590016562,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  1  0  config/database.yml
-|4,39,1,0,1589997772,"config/database.yml"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  32  2  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,32,2,1589988641,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,1,0,1589988550,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
--'  1  0  /var/www/rails/mystellar1/config/unicorn.conf.rb
-|4,39,1,0,1589988550,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  2  146  /var/www/rails/mystellar1/shared/config/settings.yml
+|4,39,2,146,1591271037,"/var/www/rails/mystellar1/shared/config/settings.yml"
+-'  59  1  /var/www/rails/mystellar1/config/database.yml
+|4,39,59,1,1591264598,"/var/www/rails/mystellar1/config/database.yml"
+-'  59  1  /var/www/rails/mystellar1/config/database.yml
+|4,39,59,1,1591264598,"/var/www/rails/mystellar1/config/database.yml"
+-'  22  1  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,1,1591242656,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  1  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,1,1591242656,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  1  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,1,1591242656,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  1  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,1,1591242656,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  152  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,152,1591242618,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  152  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,152,1591242618,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  152  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,152,1591242618,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  152  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,152,1591242618,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  146  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,146,1591242579,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  146  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,146,1591242579,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  146  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,146,1591242579,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  22  146  /var/www/rails/mystellar1/config/secrets.yml
+|4,39,22,146,1591242579,"/var/www/rails/mystellar1/config/secrets.yml"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  3  9  ~/.ssh/config
+|4,39,3,9,1591242327,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  32  ~/.ssh/config
+|4,39,4,32,1591242314,"~/.ssh/config"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
+-'  4  38  /var/www/rails/mystellar1/config/unicorn.conf.rb
+|4,39,4,38,1591240047,"/var/www/rails/mystellar1/config/unicorn.conf.rb"
 
 # History of marks within files (newest to oldest):
+
+> /var/www/rails/mystellar1/shared/config/settings.yml
+	*	1591271036	0
+	"	2	146
+	^	2	147
+	.	2	146
+	+	2	147
+	+	2	153
+	+	2	1
+	+	2	146
+
+> /var/www/rails/mystellar1/config/database.yml
+	*	1591264590	0
+	"	59	1
+	^	59	2
+	.	56	10
+	+	17	11
+	+	56	10
+
+> /var/www/rails/mystellar1/config/secrets.yml
+	*	1591242654	0
+	"	22	1
+	^	22	2
+	.	22	2
+	+	1	127
+	+	22	147
+	+	22	153
+	+	22	2
+
+> ~/.ssh/config
+	*	1591242317	0
+	"	3	9
+	^	4	33
+	.	4	33
+	+	4	33
+
+> /var/www/rails/mystellar1/config/unicorn.conf.rb
+	*	1591240044	0
+	"	4	38
+	^	4	39
+	.	4	38
+	+	4	25
+	+	32	3
+	+	4	38
+
+> ~/.gitconfig
+	*	1591239737	0
+	"	1	0
+
+> ~/.ssh/authorized_keys
+	*	1591201051	0
+	"	1	579
+	^	1	580
+	.	1	580
+	+	1	42
+	+	1	580
+
+> /var/www/rails/mystellar1/.ssh/config
+	*	1591180694	0
+	"	1	0
 
 > ~/config/database.yml
 	*	1590052041	0
@@ -268,14 +336,6 @@
 	.	56	20
 	+	17	20
 	+	56	20
-
-> /var/www/rails/mystellar1/config/unicorn.conf.rb
-	*	1590048949	0
-	"	1	0
-	^	32	3
-	.	32	3
-	+	4	25
-	+	32	3
 
 > config/unicorn.conf.rb
 	*	1590048891	0
@@ -306,10 +366,6 @@
 	+	41	4
 	+	1	0
 
-> /var/www/rails/mystellar1/shared/config/settings.yml
-	*	1590037983	0
-	"	1	0
-
 > config/database.yml
 	*	1590016645	0
 	"	7	0
@@ -321,21 +377,6 @@
 > /var/www/rails/mystellar1/Gemfile
 	*	1589988431	0
 	"	54	0
-
-> /var/www/rails/mystellar1/config/secrets.yml
-	*	1589987252	0
-	"	22	145
-	^	22	147
-	.	22	146
-	+	1	127
-	+	22	146
-
-> ~/.ssh/config
-	*	1589986605	0
-	"	4	32
-	^	4	33
-	.	4	32
-	+	4	32
 
 > /var/www/projects/mystellar1/shared/config/settings.yml
 	*	1589951111	0
@@ -423,28 +464,3 @@
 > ~/test.conf
 	*	1588758055	0
 	"	1	2
-
-> /var/www/projects/mystellar1/config/master.key
-	*	1588753906	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> /etc/nginx/conf.d/Gemfile
-	*	1588742669	0
-	"	1	0
-
-> /Users/fndm40/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/extensions/x86_64-darwin-15/2.3.0-static/ruby-filemagic-0.6.1/mkmf.log
-	*	1588667782	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	0
-
-> /var/www/projects/Gemfile
-	*	1588661602	0
-	"	7	0
-	^	7	0
-	.	7	0
-	+	7	0
