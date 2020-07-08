@@ -72,11 +72,11 @@ gem 'font-awesome-sass'
 gem 'devise'
 gem 'kaminari'
 gem 'rails-i18n'
-<<<<<<< HEAD
+
 group :production, :staging do
     gem 'unicorn'
 end
-=======
+
 group :development, :test do
   gem 'capistrano'
   gem 'capistrano-bundler'
@@ -84,7 +84,3 @@ group :development, :test do
   gem 'capistrano-rbenv'
 end
 gem 'therubyracer'
-group :production, :staging do
-  gem 'unicorn'
-end
->>>>>>> 70cc4cd12654320126c988dbd0b817977a0702c8
