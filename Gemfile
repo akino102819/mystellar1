@@ -74,4 +74,7 @@ gem 'haml-rails'
 gem 'font-awesome-sass'
 gem 'devise'
 gem 'kaminari'
-
+gem 'rails-i18n'
+group :production, :staging do
+    gem 'unicorn'
+end
