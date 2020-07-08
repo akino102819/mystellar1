@@ -72,7 +72,10 @@ gem 'font-awesome-sass'
 gem 'devise'
 gem 'kaminari'
 gem 'rails-i18n'
+<<<<<<< HEAD
 
+=======
+>>>>>>> f0d95e68ea0b6005e2ff3ca630c06087e89476e9
 group :production, :staging do
     gem 'unicorn'
 end
