@@ -54,6 +54,4 @@ production:
   database: mystellar1_production
   username: root
   password:
-  host: mystellar-mysql.ce6ovpuscs49.ap-northeast-1.rds.amazonaws.com
-  port: 3306
-  
+  socket: /var/lib/mysql/mysql.sock

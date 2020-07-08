@@ -72,3 +72,13 @@ gem 'font-awesome-sass'
 gem 'devise'
 gem 'kaminari'
 gem 'rails-i18n'
+group :development, :test do
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
+end
+gem 'therubyracer'
+group :production, :staging do
+  gem 'unicorn'
+end
