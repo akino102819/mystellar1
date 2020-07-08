@@ -79,6 +79,3 @@ group :development, :test do
   gem 'capistrano-rbenv'
 end
 gem 'therubyracer'
-group :production, :staging do
-  gem 'unicorn'
-end
