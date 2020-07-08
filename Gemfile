@@ -1,11 +1,8 @@
 source 'https://rubygems.org'
 
-git_source(:github) do |repo_name|
-  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
-  "https://github.com/#{repo_name}.git"
-end
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-
+ruby '2.5.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.7', '>= 5.0.7.2'
 # Use mysql as the database for Active Record
@@ -75,6 +72,19 @@ gem 'font-awesome-sass'
 gem 'devise'
 gem 'kaminari'
 gem 'rails-i18n'
+<<<<<<< HEAD
 group :production, :staging do
     gem 'unicorn'
 end
+=======
+group :development, :test do
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
+end
+gem 'therubyracer'
+group :production, :staging do
+  gem 'unicorn'
+end
+>>>>>>> 70cc4cd12654320126c988dbd0b817977a0702c8
