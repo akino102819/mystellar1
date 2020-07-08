@@ -72,6 +72,10 @@ gem 'font-awesome-sass'
 gem 'devise'
 gem 'kaminari'
 gem 'rails-i18n'
+group :production, :staging do
+    gem 'unicorn'
+end
+
 group :development, :test do
   gem 'capistrano'
   gem 'capistrano-bundler'
